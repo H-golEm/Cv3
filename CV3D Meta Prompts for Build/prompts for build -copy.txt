@@ -1,0 +1,44 @@
+Write a github webpage repo (use something like three.js if that helps with the following:
+(1) Black Background
+(2) Navigation pane at the top with 'Holtwood One SC' Font at size 27 px :
+    "Home" (aligned left),
+    "Projects" (golden-ratio left alligned separation from the center)
+    "Stre"+"U+223C"+"cording Content" (aligned right); which has a dropdown (when activated via hover, smoothly transition from U+223C to U+223D while dropdown smoothly slide out) holding:
+        "Live Stream" (with a red recording emoji next to it)
+        "Prior Drops" (with a stone face emoji next to it) bellow Live Stream
+    "Contact"aligned vertically slightly bellow all others:
+        Transition to font 'Blaka Ink' size px 24 when hovered over (! allows the popup from "Stre"+"U+223D"+"cording Content" to still take priotity and drop down)
+        Centered to the horizontal position of the mouse but with a slight lag as if attached to a rubberband for smoothness
+(3) A 3d smooth Cube should be generated on each of these subpages with the following properties:
+    Shiny (reflective if we add more objects to the scene) with a dark-dark blue back surface color
+    Ambient alpha value of .6
+    Diffuse alpha value of .3
+    Front surface off white color alpha value of .5
+    Back surface alpha value of .7
+        Standard Pages:
+            Each click should 'roll' the cube; stopping with a finalizing end rotate when the roll's velocity has reduced ie: one extra final rotation right,left,up or down to show a face of the cube (isometrically)
+            A new piece of text written in white 'Vast Shadow' font size 16 px for body text and 'Bungee Spice' size 17 px for titles
+            Text should fade in sequentially in the direction that the cubes last rotation occured (ex: [cube rotation right] = [text block fade in from left to right],
+                                                                                                        [cube rotation left] = [text block fade in from right to left]
+                                                                                                        [cube rotation up] = [text block fade in from top to bottom],
+                                                                                                        [cube rotation down] = [text block fade in from bottom to top]) from alpha 0 to alpha 90. from font size 7 to the users' browser default (or 16 if not found)
+        Subpages belonging under "Stre"+"U+223C"+"cording Content":
+            "Live Stream"
+                Gradually fade-in an iframe smaller than the cube instead of the text
+                For live stream we will assume the cube only rolls when the user rewinds the live-feed and stops interacting with the element (note don't actually refresh the whole Iframe just make its alpha value go to 0 while the video buffers in the background & cube rolls
+                (fade in when cube is finished) autoplay from that position when faded back into original value.
+            "Prior Drops"
+                Playing: (same as if live stream)
+                List:
+                    There should be a list of videos in a rolladex style we can scroll through without moving the entire page
+                    With a medium sized thumbnails to the right of the cube
+                    There should be a highlighted video in this list depicting the next video to be auto-played
+                    That next video should have a bigger thumbnail than the others and a black-to-white diagnol gradient filled boarder for the thumbnail at least 16 px wider than the video on the right and bottom sides (generating an off-set look)
+                    Red subscript text saying 'next' in  Wellfleet font size 15 px, should be in the boarder of that next video
+                Popup:
+                    The user can scroll through the list independent of the page highlighting a playable video
+                    The thumbnail increase in size and a shiny dark-violet pop-up to the left of the list is shown with an alpha value of .67
+                    Popup should be aligned between the cube and the list but centered such that the pop up partiall intersects the list's center at a golden ratio to the right-of-center of the popup it should partially cover the cube as well but not actually hit the iframe element)
+                    The popup should contain a short description of the video highlighted in the rolladex written in white 'Vast Shadow' font size 16 px
+                    The popup title should the video title written in 'Holtwood One SC'
+                    Further if the popup should box (not the text it contains) should slightly follow the mouse smoothly with a max follow radius = 13 px

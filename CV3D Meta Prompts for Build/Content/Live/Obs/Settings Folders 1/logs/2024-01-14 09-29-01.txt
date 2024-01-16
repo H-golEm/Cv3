@@ -1,0 +1,360 @@
+09:29:01.709: CPU Name: Intel(R) Celeron(R) N5095 @ 2.09:43:48.332: [Safe Mode] User elected to launch normally.
+09:43:48.337: CPU Name: Intel(R) Celeron(R) N5095 @ 2.00GHz
+09:43:48.337: CPU Speed: 1997MHz
+09:43:48.337: Physical Cores: 4, Logical Cores: 4
+09:43:48.337: Physical Memory: 16228MB Total, 6947MB Free
+09:43:48.338: Windows Version: 10.0 Build 23612 (release: 22H2; revision: 1000; 64-bit)
+09:43:48.338: Running as administrator: true
+09:43:48.338: Windows 10/11 Gaming Features:
+09:43:48.338: 	Game DVR: On
+09:43:48.338: 	Game Mode: Off
+09:43:48.344: Sec. Software Status:
+09:43:48.384: 	Microsoft Defender Antivirus: enabled (AV)
+09:43:48.390: 	Windows Firewall: enabled (FW)
+09:43:48.393: Current Date/Time: 2024-01-14, 09:43:48
+09:43:48.393: Browser Hardware Acceleration: true
+09:43:48.393: Hide OBS windows from screen capture: true
+09:43:48.393: Qt Version: 6.5.3 (runtime), 6.5.3 (compiled)
+09:43:48.393: Portable mode: false
+09:43:48.783: OBS 30.0.0 (64-bit, windows)
+09:43:48.783: ---------------------------------
+09:43:48.812: ---------------------------------
+09:43:48.812: audio settings reset:
+09:43:48.812: 	samples per sec: 48000
+09:43:48.812: 	speakers:        2
+09:43:48.812: 	max buffering:   960 milliseconds
+09:43:48.812: 	buffering type:  dynamically increasing
+09:43:48.815: ---------------------------------
+09:43:48.815: Initializing D3D11...
+09:43:48.815: Available Video Adapters: 
+09:43:48.843: 	Adapter 0: Intel(R) UHD Graphics
+09:43:48.843: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+09:43:48.843: 	  Shared VRAM:    8508350464 (7.9 GiB)
+09:43:48.843: 	  PCI ID:         8086:4e55
+09:43:48.843: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+09:43:48.844: 	  Driver Version: 31.0.101.2114
+09:43:48.845: 	  output 0:
+09:43:48.845: 	    name=E320VL
+09:43:48.845: 	    pos={0, 0}
+09:43:48.845: 	    size={1920, 1080}
+09:43:48.845: 	    attached=true
+09:43:48.845: 	    refresh=25
+09:43:48.845: 	    bits_per_color=8
+09:43:48.845: 	    space=RGB_FULL_G22_NONE_P709
+09:43:48.845: 	    sdr_white_nits=80
+09:43:48.845: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+09:43:48.845: 	    dpi=96 (100%)
+09:43:48.845: 	    id=\\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+09:43:48.845: 	    alt_id=\\.\DISPLAY1
+09:43:48.850: Loading up D3D11 on adapter Intel(R) UHD Graphics (0)
+09:43:48.938: D3D11 loaded successfully, feature level used: b000
+09:43:48.938: DXGI increase maximum frame latency success
+09:43:50.641: ---------------------------------
+09:43:50.641: video settings reset:
+09:43:50.641: 	base resolution:   1920x1080
+09:43:50.641: 	output resolution: 424x240
+09:43:50.641: 	downscale filter:  Bicubic
+09:43:50.641: 	fps:               60/1
+09:43:50.641: 	format:            NV12
+09:43:50.641: 	YUV mode:          Rec. 709/Partial
+09:43:50.642: NV12 texture support enabled
+09:43:50.642: P010 texture support not available
+09:43:50.645: Audio monitoring device:
+09:43:50.645: 	name: Default
+09:43:50.645: 	id: default
+09:43:50.646: ---------------------------------
+09:43:50.663: No AJA devices found, skipping loading AJA UI plugin
+09:43:50.663: Failed to initialize module 'aja-output-ui.dll'
+09:43:50.677: No AJA devices found, skipping loading AJA plugin
+09:43:50.677: Failed to initialize module 'aja.dll'
+09:43:50.678: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+09:43:50.697: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+09:43:50.699: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+09:43:50.701: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+09:43:50.719: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:43:50.719: Failed to initialize module 'decklink.dll'
+09:43:50.751: [Python] Could not load library: C:/Python312/
+09:43:50.767: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+09:43:50.767: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+09:43:50.768: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+09:43:50.853: [Move Transition] loaded version 2.9.6
+09:43:50.855: Failed to get nvARPose.dll version info size
+09:43:50.907: [obs-browser]: Version 2.22.1
+09:43:50.907: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+gc69ad37+chromium-103.0.5060.134 (compiled)
+09:43:50.949: [noise suppress]: NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+09:43:50.950: Failed to get NVVideoEffects.dll version info size
+09:43:50.954: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+09:43:51.481: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.3 | RPC Version: 1)
+09:43:51.482: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.3 | Qt version (run-time): 6.5.3
+09:43:51.482: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+09:43:51.503: [obs-websocket] [obs_module_load] Module loaded.
+09:43:51.574: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+09:43:51.832: ---------------------------------
+09:43:51.833:   Loaded Modules:
+09:43:51.833:     win-wasapi.dll
+09:43:51.833:     win-dshow.dll
+09:43:51.833:     win-capture.dll
+09:43:51.833:     vlc-video.dll
+09:43:51.833:     text-freetype2.dll
+09:43:51.833:     rtmp-services.dll
+09:43:51.833:     obs-x264.dll
+09:43:51.833:     obs-websocket.dll
+09:43:51.833:     obs-webrtc.dll
+09:43:51.833:     obs-vst.dll
+09:43:51.833:     obs-transitions.dll
+09:43:51.833:     obs-text.dll
+09:43:51.833:     obs-qsv11.dll
+09:43:51.833:     obs-outputs.dll
+09:43:51.833:     obs-filters.dll
+09:43:51.833:     obs-ffmpeg.dll
+09:43:51.833:     obs-browser.dll
+09:43:51.833:     move-transition.dll
+09:43:51.833:     image-source.dll
+09:43:51.833:     frontend-tools.dll
+09:43:51.833:     decklink-output-ui.dll
+09:43:51.833:     decklink-captions.dll
+09:43:51.833:     coreaudio-encoder.dll
+09:43:51.833: ---------------------------------
+09:43:51.833: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+09:43:51.833: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+09:43:51.834: [obs-websocket] [WebSocketServer::Start] Listen failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+09:43:51.835: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+09:43:51.836: ==== Startup complete ===============================================
+09:43:52.338: All scene data cleared
+09:43:52.338: ------------------------------------------------
+09:43:52.448: [win-wasapi: 'Desktop Audio'] update settings:
+09:43:52.448: 	device id: default
+09:43:52.448: 	use device timing: 1
+09:43:52.455: [Loaded global audio device]: 'Desktop Audio'
+09:43:52.456: [win-wasapi: 'Mic/Aux'] update settings:
+09:43:52.456: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+09:43:52.456: 	use device timing: 0
+09:43:52.457: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+09:43:52.457: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Mic/Aux)
+09:43:52.458: [Loaded global audio device]: 'Mic/Aux'
+09:43:52.462: [win-wasapi: 'Audio Input Capture'] update settings:
+09:43:52.462: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+09:43:52.462: 	use device timing: 1
+09:43:52.463: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+09:43:52.463: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Audio Input Capture)
+09:43:52.536: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:43:52.577: [duplicator-monitor-capture: 'Display Capture'] update settings:
+09:43:52.577: 	display:  (0x0)
+09:43:52.577: 	cursor: true
+09:43:52.577: 	method: DXGI
+09:43:52.577: 	id: 
+09:43:52.577: 	alt_id: 
+09:43:52.577: 	setting_id: \\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+09:43:52.577: 	force SDR: true
+09:43:52.579: [win-wasapi: 'Audio Output Capture'] update settings:
+09:43:52.579: 	device id: {0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}
+09:43:52.579: 	use device timing: 1
+09:43:52.579: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}] Failed to enumerate device: 80070490
+09:43:52.580: WASAPI: Device '{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}' failed to start (source: Audio Output Capture)
+09:43:52.673: Switched to scene 'Scene 2'
+09:43:53.035: ------------------------------------------------
+09:43:53.035: Loaded scenes:
+09:43:53.035: - scene 'Scene':
+09:43:53.035:     - source: 'Audio Input Capture' (wasapi_input_capture)
+09:43:53.035:         - monitoring: monitor and output
+09:43:53.035:         - filter: 'VST 2.x Plug-in' (vst_filter)
+09:43:53.035:     - source: 'Display Capture' (monitor_capture)
+09:43:53.035:     - source: 'Audio Output Capture' (wasapi_output_capture)
+09:43:53.035:         - monitoring: monitor and output
+09:43:53.035:     - source: 'Video Capture Device 2' (dshow_input)
+09:43:53.035: - scene 'Scene 2':
+09:43:53.035:     - source: 'Display Capture' (monitor_capture)
+09:43:53.035:     - source: 'Group' (group)
+09:43:53.035:         - source: 'Video Capture Device' (dshow_input)
+09:43:53.035:             - filter: 'Color Correction' (color_filter_v2)
+09:43:53.035:         - source: 'Audio Output Capture' (wasapi_output_capture)
+09:43:53.035:             - monitoring: monitor and output
+09:43:53.035:     - source: 'Audio Output Capture' (wasapi_output_capture)
+09:43:53.035:         - monitoring: monitor and output
+09:43:53.035:     - source: 'Group 2' (group)
+09:43:53.035:         - filter: 'Render Delay' (gpu_delay)
+09:43:53.035:         - source: 'Video Capture Device' (dshow_input)
+09:43:53.035:             - filter: 'Color Correction' (color_filter_v2)
+09:43:53.035:         - source: 'Audio Output Capture' (wasapi_output_capture)
+09:43:53.035:             - monitoring: monitor and output
+09:43:53.035: ------------------------------------------------
+09:43:53.155: ---------------------------------
+09:43:53.155: [DShow Device: 'Video Capture Device'] settings updated: 
+09:43:53.155: 	video device: USB 2.0 Camera
+09:43:53.155: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+09:43:53.155: 	resolution: 1280x720
+09:43:53.155: 	flip: 0
+09:43:53.155: 	fps: 30.00 (interval: 333333)
+09:43:53.155: 	format: MJPEG
+09:43:53.155: 	buffering: disabled
+09:43:53.155: 	hardware decode: disabled
+09:43:53.330: ---------------------------------
+09:43:53.330: [DShow Device: 'Video Capture Device 2'] settings updated: 
+09:43:53.330: 	video device: USB 2.0 Camera
+09:43:53.330: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+09:43:53.330: 	resolution: 1920x1080
+09:43:53.330: 	flip: 0
+09:43:53.330: 	fps: 30.00 (interval: 333333)
+09:43:53.330: 	format: MJPEG
+09:43:53.330: 	buffering: disabled
+09:43:53.330: 	hardware decode: disabled
+09:43:53.474: 	using video device audio: no
+09:43:53.474: 	separate audio filter
+09:43:53.474: 	sample rate: 44100
+09:43:53.474: 	channels: 2
+09:43:53.474: 	audio type: Capture
+09:43:53.895: 	using video device audio: no
+09:43:53.895: 	separate audio filter
+09:43:53.895: 	sample rate: 44100
+09:43:53.895: 	channels: 2
+09:43:53.895: 	audio type: Capture
+09:43:54.102: YT: InitYTUserUrl() User is not signed
+09:43:54.103: YT: InitYTUserUrl() User is not signed
+09:43:54.405: DShow: HDevice::ConnectPins: failed to connect pins (0x8007001F): A device attached to the system is not functioning.
+09:43:54.405: 
+09:43:54.631: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+09:43:54.631: 
+09:43:55.253: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+09:43:55.253: 
+09:46:32.170: ==== Shutting down ==================================================
+09:46:32.304: QFSFileEngine::open: No file name specified
+09:46:32.392: WASAPI: Device '' Terminated
+09:46:32.418: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' Terminated
+09:46:32.426: WASAPI: Device '' Terminated
+09:46:32.438: WASAPI: Device '' Terminated
+09:46:33.426: All scene data cleared
+09:46:33.426: ------------------------------------------------
+09:46:34.434: [obs-websocket] [obs_module_unload] Shutting down...
+09:46:34.435: Tried to call obs_frontend_remove_event_callback with no callbacks!
+09:46:34.435: [obs-websocket] [obs_module_unload] Finished shutting down.
+09:46:38.124: [Scripting] Total detached callbacks: 0
+09:46:38.125: Freeing OBS context data
+09:46:38.275: == Profiler10:19:47.945: WASAPI: Default output device changed
+10:19:47.983: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+10:19:48.143: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+10:30:51.500: WASAPI: Default output device changed
+10:30:51.514: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+10:30:51.743: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+10:36:25.492: WASAPI: Default output device changed
+10:36:25.550: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+10:36:25.718: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+10:38:53.018: WASAPI: Default output device changed
+10:38:53.027: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+10:38:53.315: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+10:44:51.955: WASAPI: Default output device changed
+10:44:52.002: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+10:44:52.161: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+10:53:12.168: WASAPI: Default output device changed
+10:53:12.178: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+10:53:12.594: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+12:19:41.029: Max audio buffering reached!
+12:19:41.029: adding 320 milliseconds of audio buffering, total audio buffering is now 960 milliseconds (source: Desktop Audio)
+12:19:41.029: 
+12:30:12.038: WASAPI: Default output device changed
+12:30:12.047: Source Desktop Audio audio is lagging (over by 628334.85 ms) at max audio buffering. Restarting source audio.
+12:30:12.097: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+12:30:12.271: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+12:50:58.963: WASAPI: Default output device changed
+12:50:59.006: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+12:50:59.316: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+13:06:42.122: WASAPI: Default output device changed
+13:06:42.171: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+13:06:42.369: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+13:11:55.521: WASAPI: Default output device changed
+13:11:55.560: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+13:11:55.820: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+13:19:14.408: WASAPI: Default output device changed
+13:19:14.424: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+13:19:14.627: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+13:22:49.136: WASAPI: Default output device changed
+13:22:49.145: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+13:22:49.403: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+13:31:32.624: WASAPI: Default output device changed
+13:31:32.666: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+13:31:32.810: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+13:31:42.861: WASAPI: Default output device changed
+13:31:42.899: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+13:31:43.248: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+13:36:36.765: WASAPI: Default output device changed
+13:36:36.824: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+13:36:36.999: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+13:59:51.211: WASAPI: Default output device changed
+13:59:51.290: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+13:59:51.524: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+14:04:44.256: WASAPI: Default output device changed
+14:04:44.304: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+14:04:44.469: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+14:15:14.527: WASAPI: Default output device changed
+14:15:14.630: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+14:15:14.811: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+14:48:20.702: WASAPI: Default output device changed
+14:48:20.730: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+14:48:20.909: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+14:51:22.251: WASAPI: Default output device changed
+14:51:22.260: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+14:51:22.700: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+15:16:21.132: WASAPI: Default output device changed
+15:16:21.189: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+15:16:21.353: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+16:19:14.370: WASAPI: Default output device changed
+16:19:14.419: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+16:19:14.963: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:27:06.406: WASAPI: Default output device changed
+17:27:06.449: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+17:27:06.693: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+17:52:10.876: WASAPI: Default output device changed
+17:52:10.947: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+17:52:11.260: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+19:06:14.103: WASAPI: Default output device changed
+19:06:14.125: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+19:06:14.309: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+19:24:50.560: WASAPI: Default output device changed
+19:24:50.606: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+19:24:50.892: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+19:49:37.655: WASAPI: Default output device changed
+19:49:37.660: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+19:49:39.521: WASAPI: Device 'Headphones (onn. 30" Soundbar)' [44100 Hz] initialized (source: Desktop Audio)
+21:10:28.538: WASAPI: Default output device changed
+21:10:28.566: Device 'Headphones (onn. 30" Soundbar)' invalidated.  Retrying (source: Desktop Audio)
+21:10:28.697: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+21:15:36.558: WASAPI: Default output device changed
+21:15:36.568: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+21:15:36.898: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+21:53:37.847: WASAPI: Default output device changed
+21:53:37.880: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+21:53:38.067: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+21:58:38.316: WASAPI: Default output device changed
+21:58:38.326: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+21:58:38.516: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+22:03:29.206: WASAPI: Default output device changed
+22:03:29.586: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+22:03:29.703: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+03:34:24.981: WASAPI: Default output device changed
+03:34:25.012: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+03:34:25.156: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+03:34:27.510: WASAPI: Default output device changed
+03:34:27.513: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+03:34:27.631: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+03:34:27.876: "Unable to open monitor interface to \\\\.\\DISPLAY1:" "The operation completed successfully."
+03:34:28.625: "Unable to open monitor interface to \\\\.\\DISPLAY1:" "The operation completed successfully."
+03:34:30.925: WASAPI: Default output device changed
+03:34:30.958: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+03:34:31.248: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+04:27:20.988: WASAPI: Default output device changed
+04:27:21.053: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+04:27:21.157: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+04:53:04.692: WASAPI: Default output device changed
+04:53:04.698: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+04:53:05.054: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+05:03:23.107: WASAPI: Default output device changed
+05:03:23.158: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+05:03:23.240: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+05:12:09.643: WASAPI: Default output device changed
+05:12:09.650: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+05:12:09.888: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+05:23:41.796: WASAPI: Default output device changed
+05:23:41.838: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+05:23:41.999: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+05:28:22.450: WASAPI: Default output device changed
+05:28:22.455: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+05:28:22.738: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)

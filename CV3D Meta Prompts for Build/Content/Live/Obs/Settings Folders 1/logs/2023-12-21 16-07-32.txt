@@ -1,0 +1,315 @@
+16:07:32.280: CPU Name: Intel(R) Celeron(R) N5095 @ 2.00GHz
+16:07:32.280: CPU Speed: 1997MHz
+16:07:32.280: Physical Cores: 4, Logical Cores: 4
+16:07:32.280: Physical Memory: 16228MB Total, 1793MB Free
+16:07:32.280: Windows Version: 10.0 Build 23606 (release: 22H2; revision: 1000; 64-bit)
+16:07:32.280: Running as administrator: true
+16:07:32.281: Windows 10/11 Gaming Features:
+16:07:32.281: 	Game DVR: On
+16:07:32.281: 	Game Mode: Off
+16:07:32.294: Sec. Software Status:
+16:07:32.298: 	Microsoft Defender Antivirus: enabled (AV)
+16:07:32.299: 	Windows Firewall: enabled (FW)
+16:07:32.301: Current Date/Time: 2023-12-21, 16:07:32
+16:07:32.301: Browser Hardware Acceleration: true
+16:07:32.301: Hide OBS windows from screen capture: true
+16:07:32.301: Qt Version: 6.5.3 (runtime), 6.5.3 (compiled)
+16:07:32.301: Portable mode: false
+16:07:33.345: OBS 30.0.0 (64-bit, windows)
+16:07:33.345: ---------------------------------
+16:07:33.347: ---------------------------------
+16:07:33.347: audio settings reset:
+16:07:33.347: 	samples per sec: 48000
+16:07:33.347: 	speakers:        2
+16:07:33.347: 	max buffering:   960 milliseconds
+16:07:33.347: 	buffering type:  dynamically increasing
+16:07:33.350: ---------------------------------
+16:07:33.350: Initializing D3D11...
+16:07:33.350: Available Video Adapters: 
+16:07:33.367: 	Adapter 0: Intel(R) UHD Graphics
+16:07:33.367: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+16:07:33.367: 	  Shared VRAM:    8508350464 (7.9 GiB)
+16:07:33.367: 	  PCI ID:         8086:4e55
+16:07:33.368: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+16:07:33.369: 	  Driver Version: 31.0.101.2114
+16:07:33.370: 	  output 0:
+16:07:33.370: 	    name=100002480
+16:07:33.370: 	    pos={0, 0}
+16:07:33.370: 	    size={1920, 1080}
+16:07:33.370: 	    attached=true
+16:07:33.370: 	    refresh=60
+16:07:33.370: 	    bits_per_color=8
+16:07:33.370: 	    space=RGB_FULL_G22_NONE_P709
+16:07:33.370: 	    sdr_white_nits=80
+16:07:33.370: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+16:07:33.370: 	    dpi=96 (100%)
+16:07:33.370: 	    id=\\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+16:07:33.370: 	    alt_id=\\.\DISPLAY2
+16:07:33.377: Loading up D3D11 on adapter Intel(R) UHD Graphics (0)
+16:07:33.470: D3D11 loaded successfully, feature level used: b000
+16:07:33.470: DXGI increase maximum frame latency success
+16:07:35.591: ---------------------------------
+16:07:35.591: video settings reset:
+16:07:35.591: 	base resolution:   1920x1080
+16:07:35.591: 	output resolution: 424x240
+16:07:35.591: 	downscale filter:  Bicubic
+16:07:35.591: 	fps:               60/1
+16:07:35.591: 	format:            NV12
+16:07:35.591: 	YUV mode:          Rec. 709/Partial
+16:07:35.591: NV12 texture support enabled
+16:07:35.591: P010 texture support not available
+16:07:35.593: Audio monitoring device:
+16:07:35.593: 	name: Default
+16:07:35.593: 	id: default
+16:07:35.593: ---------------------------------
+16:07:35.613: No AJA devices found, skipping loading AJA UI plugin
+16:07:35.613: Failed to initialize module 'aja-output-ui.dll'
+16:07:35.626: No AJA devices found, skipping loading AJA plugin
+16:07:35.626: Failed to initialize module 'aja.dll'
+16:07:35.627: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+16:07:35.643: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+16:07:35.645: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+16:07:35.647: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+16:07:35.666: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:07:35.666: Failed to initialize module 'decklink.dll'
+16:07:35.696: [Python] Could not load library: C:/Python312/
+16:07:35.712: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+16:07:35.712: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+16:07:35.713: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+16:07:36.279: [Move Transition] loaded version 2.9.6
+16:07:36.281: Failed to get nvARPose.dll version info size
+16:07:36.340: [obs-browser]: Version 2.22.1
+16:07:36.340: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+gc69ad37+chromium-103.0.5060.134 (compiled)
+16:07:36.388: [noise suppress]: NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+16:07:36.390: Failed to get NVVideoEffects.dll version info size
+16:07:36.395: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+16:07:36.960: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.3 | RPC Version: 1)
+16:07:36.960: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.3 | Qt version (run-time): 6.5.3
+16:07:36.960: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+16:07:36.998: [obs-websocket] [obs_module_load] Module loaded.
+16:07:37.095: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+16:07:37.723: ---------------------------------
+16:07:37.724:   Loaded Modules:
+16:07:37.724:     win-wasapi.dll
+16:07:37.724:     win-dshow.dll
+16:07:37.724:     win-capture.dll
+16:07:37.724:     vlc-video.dll
+16:07:37.724:     text-freetype2.dll
+16:07:37.724:     rtmp-services.dll
+16:07:37.724:     obs-x264.dll
+16:07:37.724:     obs-websocket.dll
+16:07:37.724:     obs-webrtc.dll
+16:07:37.724:     obs-vst.dll
+16:07:37.724:     obs-transitions.dll
+16:07:37.724:     obs-text.dll
+16:07:37.724:     obs-qsv11.dll
+16:07:37.724:     obs-outputs.dll
+16:07:37.724:     obs-filters.dll
+16:07:37.724:     obs-ffmpeg.dll
+16:07:37.724:     obs-browser.dll
+16:07:37.724:     move-transition.dll
+16:07:37.724:     image-source.dll
+16:07:37.724:     frontend-tools.dll
+16:07:37.724:     decklink-output-ui.dll
+16:07:37.724:     decklink-captions.dll
+16:07:37.724:     coreaudio-encoder.dll
+16:07:37.724: ---------------------------------
+16:07:37.724: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+16:07:37.728: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+16:07:37.729: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+16:07:37.771: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.1.139
+16:07:37.773: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+16:07:37.775: ==== Startup complete ===============================================
+16:07:38.300: All scene data cleared
+16:07:38.300: ------------------------------------------------
+16:07:38.363: [win-wasapi: 'Desktop Audio'] update settings:
+16:07:38.363: 	device id: default
+16:07:38.363: 	use device timing: 1
+16:07:38.368: [Loaded global audio device]: 'Desktop Audio'
+16:07:38.369: [win-wasapi: 'Mic/Aux'] update settings:
+16:07:38.369: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+16:07:38.369: 	use device timing: 0
+16:07:38.369: [Loaded global audio device]: 'Mic/Aux'
+16:07:38.375: [win-wasapi: 'Audio Input Capture'] update settings:
+16:07:38.375: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+16:07:38.375: 	use device timing: 1
+16:07:38.427: WASAPI: Device 'Microphone (USB 2.0 Camera)' [48000 Hz] initialized (source: Audio Input Capture)
+16:07:38.436: WASAPI: Device 'Microphone (USB 2.0 Camera)' [48000 Hz] initialized (source: Mic/Aux)
+16:07:38.446: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+16:07:38.563: [duplicator-monitor-capture: 'Display Capture'] update settings:
+16:07:38.563: 	display: 100002480 (1920x1080)
+16:07:38.563: 	cursor: true
+16:07:38.563: 	method: DXGI
+16:07:38.563: 	id: \\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+16:07:38.563: 	alt_id: \\.\DISPLAY2
+16:07:38.563: 	setting_id: \\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+16:07:38.563: 	force SDR: true
+16:07:38.565: [win-wasapi: 'Audio Output Capture'] update settings:
+16:07:38.565: 	device id: {0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}
+16:07:38.565: 	use device timing: 1
+16:07:38.566: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}] Failed to enumerate device: 80070490
+16:07:38.566: WASAPI: Device '{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}' failed to start (source: Audio Output Capture)
+16:07:38.575: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Audio Input Capture)
+16:07:38.575: 
+16:07:38.605: Switched to scene 'Scene 2'
+16:07:38.819: ------------------------------------------------
+16:07:38.819: Loaded scenes:
+16:07:38.819: - scene 'Scene':
+16:07:38.819:     - source: 'Audio Input Capture' (wasapi_input_capture)
+16:07:38.819:         - monitoring: monitor and output
+16:07:38.819:         - filter: 'VST 2.x Plug-in' (vst_filter)
+16:07:38.819:     - source: 'Display Capture' (monitor_capture)
+16:07:38.819:     - source: 'Audio Output Capture' (wasapi_output_capture)
+16:07:38.819:         - monitoring: monitor and output
+16:07:38.819:     - source: 'Video Capture Device 2' (dshow_input)
+16:07:38.819: - scene 'Scene 2':
+16:07:38.819:     - source: 'Display Capture' (monitor_capture)
+16:07:38.819:     - source: 'Group' (group)
+16:07:38.819:         - source: 'Video Capture Device' (dshow_input)
+16:07:38.819:             - filter: 'Color Correction' (color_filter_v2)
+16:07:38.820:         - source: 'Audio Output Capture' (wasapi_output_capture)
+16:07:38.820:             - monitoring: monitor and output
+16:07:38.820:     - source: 'Audio Output Capture' (wasapi_output_capture)
+16:07:38.820:         - monitoring: monitor and output
+16:07:38.820:     - source: 'Group 2' (group)
+16:07:38.820:         - filter: 'Render Delay' (gpu_delay)
+16:07:38.820:         - source: 'Video Capture Device' (dshow_input)
+16:07:38.820:             - filter: 'Color Correction' (color_filter_v2)
+16:07:38.820:         - source: 'Audio Output Capture' (wasapi_output_capture)
+16:07:38.820:             - monitoring: monitor and output
+16:07:38.820: ------------------------------------------------
+16:07:39.538: ---------------------------------
+16:07:39.539: [DShow Device: 'Video Capture Device'] settings updated: 
+16:07:39.539: 	video device: USB 2.0 Camera
+16:07:39.539: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+16:07:39.539: 	resolution: 1280x720
+16:07:39.539: 	flip: 0
+16:07:39.539: 	fps: 30.00 (interval: 333333)
+16:07:39.539: 	format: MJPEG
+16:07:39.539: 	buffering: disabled
+16:07:39.539: 	hardware decode: disabled
+16:07:39.580: ---------------------------------
+16:07:39.581: [DShow Device: 'Video Capture Device 2'] settings updated: 
+16:07:39.581: 	video device: USB 2.0 Camera
+16:07:39.581: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+16:07:39.581: 	resolution: 1920x1080
+16:07:39.581: 	flip: 0
+16:07:39.581: 	fps: 30.00 (interval: 333333)
+16:07:39.581: 	format: MJPEG
+16:07:39.581: 	buffering: disabled
+16:07:39.581: 	hardware decode: disabled
+16:07:39.628: 	using video device audio: no
+16:07:39.628: 	separate audio filter
+16:07:39.628: 	sample rate: 44100
+16:07:39.628: 	channels: 2
+16:07:39.628: 	audio type: Capture
+16:07:39.631: 	using video device audio: no
+16:07:39.631: 	separate audio filter
+16:07:39.631: 	sample rate: 44100
+16:07:39.631: 	channels: 2
+16:07:39.631: 	audio type: Capture
+16:07:39.931: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+16:07:39.931: 
+16:07:40.190: YT: InitYTUserUrl() User is not signed
+16:07:40.191: YT: InitYTUserUrl() User is not signed
+16:08:17.919: >>> new qsv encoder
+16:08:17.919: [qsv encoder: 'simple_video_stream'] settings:
+16:08:17.919: 	codec:          H.264
+16:08:17.919: 	rate_control:   CBR
+16:08:17.919: 	target_bitrate: 669
+16:08:17.919: 	Lookahead Depth:60
+16:08:17.919: 	target_usage:   TU4
+16:08:17.919: 	profile:        high
+16:08:17.919: 	keyint:         2
+16:08:17.919: 	latency:        normal
+16:08:17.919: 	b-frames:       3
+16:08:17.919: 	enhancements:   on
+16:08:17.919: 	fps_num:        60
+16:08:17.919: 	fps_den:        1
+16:08:17.919: 	width:          424
+16:08:17.919: 	height:         240
+16:08:17.920: [qsv encoder: 'simple_video_stream'] debug info:
+16:08:18.115: 	surf:           Texture
+16:08:18.382: 	m_nSurfNum:     9
+16:08:18.385: 	m_nTaskPool:    4
+16:08:18.385: 	major:          1
+16:08:18.385: 	minor:          35
+16:08:18.385: ---------------------------------
+16:08:18.387: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo
+16:08:18.387: 
+16:08:18.465: ==== Recording Start ===============================================
+16:08:18.465: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/william/Videos/2023-12-21 16-08-17.mkv'...
+16:08:18.467: QFSFileEngine::open: No file name specified
+16:52:47.184: adding 298 milliseconds of audio buffering, total audio buffering is now 341 milliseconds (source: Video Capture Device)
+16:52:47.184: 
+16:58:20.646: adding 362 milliseconds of audio buffering, total audio buffering is now 704 milliseconds (source: Video Capture Device)
+16:58:20.646: 
+16:58:33.435: Max audio buffering reached!
+16:58:33.436: adding 256 milliseconds of audio buffering, total audio buffering is now 960 milliseconds (source: Video Capture Device)
+16:58:33.436: 
+16:58:43.742: WASAPI: Default output device changed
+16:58:46.771: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+16:59:00.517: Source Video Capture Device audio is lagging (over by 491.27 ms) at max audio buffering. Restarting source audio.
+16:59:02.713: Source Video Capture Device audio is lagging (over by 1078.27 ms) at max audio buffering. Restarting source audio.
+16:59:32.515: WASAPI: Device 'Headphones (onn. 30" Soundbar)' [44100 Hz] initialized (source: Desktop Audio)
+17:29:47.173: Source Video Capture Device audio is lagging (over by 681.58 ms) at max audio buffering. Restarting source audio.
+17:31:03.716: Source Video Capture Device audio is lagging (over by 81.42 ms) at max audio buffering. Restarting source audio.
+17:42:46.421: QFSFileEngine::open: No file name specified
+17:42:47.652: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/william/Videos/2023-12-21 16-08-17.mkv' stopped
+17:42:47.652: Output 'simple_file_output': stopping
+17:42:47.652: Output 'simple_file_output': Total frames output: 340077
+17:42:47.652: Output 'simple_file_output': Total drawn frames: 339361 (340151 attempted)
+17:42:47.652: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 790 (0.2%)
+17:42:47.654: Video stopped, number of skipped frames due to encoding lag: 6169/340149 (1.8%)
+17:42:47.672: warning: 2 frames left in the queue on closing
+17:42:55.798: ==== Recording Stop ================================================
+18:31:30.296: WASAPI: Default output device changed
+18:31:30.300: Device 'Headphones (onn. 30" Soundbar)' invalidated.  Retrying (source: Desktop Audio)
+18:31:30.381: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+21:07:51.522: >>> new qsv encoder
+21:07:51.525: [qsv encoder: 'simple_video_stream'] settings:
+21:07:51.525: 	codec:          H.264
+21:07:51.525: 	rate_control:   CBR
+21:07:51.525: 	target_bitrate: 669
+21:07:51.525: 	Lookahead Depth:60
+21:07:51.525: 	target_usage:   TU4
+21:07:51.525: 	profile:        high
+21:07:51.525: 	keyint:         2
+21:07:51.525: 	latency:        normal
+21:07:51.525: 	b-frames:       3
+21:07:51.525: 	enhancements:   on
+21:07:51.525: 	fps_num:        60
+21:07:51.525: 	fps_den:        1
+21:07:51.525: 	width:          424
+21:07:51.525: 	height:         240
+21:07:51.525: [qsv encoder: 'simple_video_stream'] debug info:
+21:07:52.032: 	surf:           Texture
+21:07:54.045: 	m_nSurfNum:     9
+21:07:54.051: 	m_nTaskPool:    4
+21:07:54.051: 	major:          1
+21:07:54.051: 	minor:          35
+21:07:54.054: ---------------------------------
+21:07:54.055: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo
+21:07:54.055: 
+21:07:54.568: ==== Recording Start ===============================================
+21:07:54.568: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/william/Videos/2023-12-21 21-07-51.mkv'...
+21:07:54.573: QFSFileEngine::open: No file name specified
+21:08:01.316: QFSFileEngine::open: No file name specified
+21:08:03.150: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/william/Videos/2023-12-21 21-07-51.mkv' stopped
+21:08:03.150: Output 'simple_file_output': stopping
+21:08:03.150: Output 'simple_file_output': Total frames output: 409
+21:08:03.150: Output 'simple_file_output': Total drawn frames: 478 (515 attempted)
+21:08:03.150: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 37 (7.2%)
+21:08:03.151: ==== Recording Stop ================================================
+21:08:03.395: Video stopped, number of skipped frames due to encoding lag: 347/508 (68.3%)
+21:08:03.404: warning: 2 frames left in the queue on closing
+23:23:16.881: Source Video Capture Device audio is lagging (over by 212.76 ms) at max audio buffering. Restarting source audio.
+23:24:05.071: Source Video Capture Device audio is lagging (over by 24.48 ms) at max audio buffering. Restarting source audio.
+23:24:06.386: ==== Shutting down ==================================================
+23:24:07.841: QFSFileEngine::open: No file name specified
+23:24:08.361: WASAPI: Device 'Speakers (USB Audio Device)' Terminated
+23:24:08.378: WASAPI: Device 'Microphone (USB 2.0 Camera)' Terminated
+23:24:08.395: WASAPI: Device 'Microphone (USB 2.0 Camera)' Terminated
+23:24:09.960: WASAPI: Device '' Terminated
+23:24:10.709: All scene data cleared
+23:24:10.709: ------------------------------------------------

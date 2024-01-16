@@ -1,0 +1,820 @@
+18:15:21.588: CPU Name: Intel(R) Celeron(R) N5095 @ 2.00GHz
+18:15:21.588: CPU Speed: 1997MHz
+18:15:21.588: Physical Cores: 4, Logical Cores: 4
+18:15:21.589: Physical Memory: 16228MB Total, 1275MB Free
+18:15:21.589: Windows Version: 10.0 Build 23612 (release: 22H2; revision: 1000; 64-bit)
+18:15:21.589: Running as administrator: true
+18:15:21.590: Windows 10/11 Gaming Features:
+18:15:21.590: 	Game DVR: On
+18:15:21.590: 	Game Mode: Off
+18:15:21.596: Sec. Software Status:
+18:15:21.600: 	Microsoft Defender Antivirus: enabled (AV)
+18:15:21.600: 	Windows Firewall: enabled (FW)
+18:15:21.603: Current Date/Time: 2024-01-15, 18:15:21
+18:15:21.604: Browser Hardware Acceleration: true
+18:15:21.604: Hide OBS windows from screen capture: true
+18:15:21.604: Qt Version: 6.5.3 (runtime), 6.5.3 (compiled)
+18:15:21.604: Portable mode: false
+18:15:23.442: OBS 30.0.0 (64-bit, windows)
+18:15:23.442: ---------------------------------
+18:15:23.447: ---------------------------------
+18:15:23.447: audio settings reset:
+18:15:23.447: 	samples per sec: 48000
+18:15:23.447: 	speakers:        2
+18:15:23.447: 	max buffering:   960 milliseconds
+18:15:23.447: 	buffering type:  dynamically increasing
+18:15:23.458: ---------------------------------
+18:15:23.458: Initializing D3D11...
+18:15:23.458: Available Video Adapters: 
+18:15:23.477: 	Adapter 0: Intel(R) UHD Graphics
+18:15:23.477: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+18:15:23.477: 	  Shared VRAM:    8508350464 (7.9 GiB)
+18:15:23.477: 	  PCI ID:         8086:4e55
+18:15:23.478: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+18:15:23.479: 	  Driver Version: 31.0.101.2114
+18:15:23.480: 	  output 0:
+18:15:23.480: 	    name=E320VL
+18:15:23.480: 	    pos={0, 0}
+18:15:23.480: 	    size={1920, 1080}
+18:15:23.480: 	    attached=true
+18:15:23.480: 	    refresh=25
+18:15:23.480: 	    bits_per_color=8
+18:15:23.480: 	    space=RGB_FULL_G22_NONE_P709
+18:15:23.480: 	    sdr_white_nits=80
+18:15:23.480: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+18:15:23.480: 	    dpi=96 (100%)
+18:15:23.480: 	    id=\\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:15:23.480: 	    alt_id=\\.\DISPLAY2
+18:15:23.496: Loading up D3D11 on adapter Intel(R) UHD Graphics (0)
+18:15:23.711: D3D11 loaded successfully, feature level used: b000
+18:15:23.711: DXGI increase maximum frame latency success
+18:15:27.231: ---------------------------------
+18:15:27.231: video settings reset:
+18:15:27.231: 	base resolution:   1920x1080
+18:15:27.231: 	output resolution: 424x240
+18:15:27.231: 	downscale filter:  Bicubic
+18:15:27.231: 	fps:               60/1
+18:15:27.231: 	format:            NV12
+18:15:27.231: 	YUV mode:          Rec. 709/Partial
+18:15:27.232: NV12 texture support enabled
+18:15:27.232: P010 texture support not available
+18:15:27.236: Audio monitoring device:
+18:15:27.236: 	name: Default
+18:15:27.236: 	id: default
+18:15:27.237: ---------------------------------
+18:15:27.293: No AJA devices found, skipping loading AJA UI plugin
+18:15:27.294: Failed to initialize module 'aja-output-ui.dll'
+18:15:27.330: No AJA devices found, skipping loading AJA plugin
+18:15:27.330: Failed to initialize module 'aja.dll'
+18:15:27.333: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+18:15:27.367: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+18:15:27.374: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+18:15:27.388: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+18:15:27.416: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:15:27.417: Failed to initialize module 'decklink.dll'
+18:15:27.513: [Python] Could not load library: C:/Python312/
+18:15:27.572: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+18:15:27.574: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+18:15:27.577: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+18:15:27.739: [Move Transition] loaded version 2.9.6
+18:15:27.744: Failed to get nvARPose.dll version info size
+18:15:27.998: [obs-browser]: Version 2.22.1
+18:15:27.999: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+gc69ad37+chromium-103.0.5060.134 (compiled)
+18:15:28.188: [noise suppress]: NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+18:15:28.191: Failed to get NVVideoEffects.dll version info size
+18:15:28.196: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+18:15:29.039: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.3 | RPC Version: 1)
+18:15:29.039: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.3 | Qt version (run-time): 6.5.3
+18:15:29.039: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+18:15:29.079: [obs-websocket] [obs_module_load] Module loaded.
+18:15:29.205: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+18:15:29.815: ---------------------------------
+18:15:29.815:   Loaded Modules:
+18:15:29.815:     win-wasapi.dll
+18:15:29.815:     win-dshow.dll
+18:15:29.815:     win-capture.dll
+18:15:29.815:     vlc-video.dll
+18:15:29.815:     text-freetype2.dll
+18:15:29.815:     rtmp-services.dll
+18:15:29.815:     obs-x264.dll
+18:15:29.815:     obs-websocket.dll
+18:15:29.815:     obs-webrtc.dll
+18:15:29.815:     obs-vst.dll
+18:15:29.815:     obs-transitions.dll
+18:15:29.815:     obs-text.dll
+18:15:29.815:     obs-qsv11.dll
+18:15:29.815:     obs-outputs.dll
+18:15:29.815:     obs-filters.dll
+18:15:29.815:     obs-ffmpeg.dll
+18:15:29.815:     obs-browser.dll
+18:15:29.815:     move-transition.dll
+18:15:29.815:     image-source.dll
+18:15:29.815:     frontend-tools.dll
+18:15:29.815:     decklink-output-ui.dll
+18:15:29.815:     decklink-captions.dll
+18:15:29.815:     coreaudio-encoder.dll
+18:15:29.815: ---------------------------------
+18:15:29.815: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+18:15:29.820: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+18:15:29.832: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+18:15:29.873: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.0.235
+18:15:29.874: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+18:15:29.876: ==== Startup complete ===============================================
+18:15:31.051: All scene data cleared
+18:15:31.051: ------------------------------------------------
+18:15:31.176: [win-wasapi: 'Desktop Audio'] update settings:
+18:15:31.176: 	device id: default
+18:15:31.176: 	use device timing: 1
+18:15:31.192: [Loaded global audio device]: 'Desktop Audio'
+18:15:31.193: [win-wasapi: 'Mic/Aux'] update settings:
+18:15:31.193: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+18:15:31.193: 	use device timing: 0
+18:15:31.195: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+18:15:31.195: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Mic/Aux)
+18:15:31.195: [Loaded global audio device]: 'Mic/Aux'
+18:15:31.198: [win-wasapi: 'Audio Input Capture'] update settings:
+18:15:31.198: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+18:15:31.198: 	use device timing: 1
+18:15:31.198: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+18:15:31.198: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Audio Input Capture)
+18:15:31.260: WASAPI: Device 'Headphones (onn. 30" Soundbar)' [44100 Hz] initialized (source: Desktop Audio)
+18:15:31.346: [duplicator-monitor-capture: 'Display Capture'] update settings:
+18:15:31.346: 	display:  (0x0)
+18:15:31.346: 	cursor: true
+18:15:31.346: 	method: DXGI
+18:15:31.346: 	id: 
+18:15:31.346: 	alt_id: 
+18:15:31.346: 	setting_id: \\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:15:31.346: 	force SDR: true
+18:15:31.347: [win-wasapi: 'Audio Output Capture'] update settings:
+18:15:31.347: 	device id: {0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}
+18:15:31.347: 	use device timing: 1
+18:15:31.348: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}] Failed to enumerate device: 80070490
+18:15:31.348: WASAPI: Device '{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}' failed to start (source: Audio Output Capture)
+18:15:31.425: Switched to scene 'Scene 2'
+18:15:31.932: ------------------------------------------------
+18:15:31.933: Loaded scenes:
+18:15:31.933: - scene 'Scene':
+18:15:31.933:     - source: 'Audio Input Capture' (wasapi_input_capture)
+18:15:31.933:         - monitoring: monitor and output
+18:15:31.933:         - filter: 'VST 2.x Plug-in' (vst_filter)
+18:15:31.933:     - source: 'Display Capture' (monitor_capture)
+18:15:31.933:     - source: 'Audio Output Capture' (wasapi_output_capture)
+18:15:31.933:         - monitoring: monitor and output
+18:15:31.933:     - source: 'Video Capture Device 2' (dshow_input)
+18:15:31.933: - scene 'Scene 2':
+18:15:31.933:     - source: 'Display Capture' (monitor_capture)
+18:15:31.933:     - source: 'Group' (group)
+18:15:31.933:         - source: 'Video Capture Device' (dshow_input)
+18:15:31.933:             - filter: 'Color Correction' (color_filter_v2)
+18:15:31.933:         - source: 'Audio Output Capture' (wasapi_output_capture)
+18:15:31.933:             - monitoring: monitor and output
+18:15:31.933:     - source: 'Audio Output Capture' (wasapi_output_capture)
+18:15:31.933:         - monitoring: monitor and output
+18:15:31.933:     - source: 'Group 2' (group)
+18:15:31.933:         - filter: 'Render Delay' (gpu_delay)
+18:15:31.933:         - source: 'Video Capture Device' (dshow_input)
+18:15:31.933:             - filter: 'Color Correction' (color_filter_v2)
+18:15:31.933:         - source: 'Audio Output Capture' (wasapi_output_capture)
+18:15:31.933:             - monitoring: monitor and output
+18:15:31.933: ------------------------------------------------
+18:15:33.140: ---------------------------------
+18:15:33.140: [DShow Device: 'Video Capture Device'] settings updated: 
+18:15:33.140: 	video device: USB 2.0 Camera
+18:15:33.140: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+18:15:33.140: 	resolution: 1280x720
+18:15:33.140: 	flip: 0
+18:15:33.140: 	fps: 30.00 (interval: 333333)
+18:15:33.140: 	format: MJPEG
+18:15:33.140: 	buffering: disabled
+18:15:33.140: 	hardware decode: disabled
+18:15:33.197: ---------------------------------
+18:15:33.197: [DShow Device: 'Video Capture Device 2'] settings updated: 
+18:15:33.197: 	video device: USB 2.0 Camera
+18:15:33.197: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+18:15:33.197: 	resolution: 1920x1080
+18:15:33.197: 	flip: 0
+18:15:33.197: 	fps: 30.00 (interval: 333333)
+18:15:33.197: 	format: MJPEG
+18:15:33.197: 	buffering: disabled
+18:15:33.197: 	hardware decode: disabled
+18:15:33.330: 	using video device audio: no
+18:15:33.330: 	separate audio filter
+18:15:33.330: 	sample rate: 44100
+18:15:33.330: 	channels: 2
+18:15:33.330: 	audio type: Capture
+18:15:33.334: 	using video device audio: no
+18:15:33.334: 	separate audio filter
+18:15:33.334: 	sample rate: 44100
+18:15:33.334: 	channels: 2
+18:15:33.334: 	audio type: Capture
+18:15:34.068: YT: InitYTUserUrl() User is not signed
+18:15:34.070: YT: InitYTUserUrl() User is not signed
+18:15:34.135: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+18:15:34.135: 
+18:16:31.657: Video Capture Device: Video format match failed
+18:16:31.657: Video Capture Device: Video configuration failed
+18:16:32.847: QFSFileEngine::open: No file name specified
+18:16:46.672: Video Capture Device 3: DecodeDeviceId failed
+18:16:46.673: Video Capture Device 3: Video configuration failed
+18:16:46.677: User added source 'Video Capture Device 3' (dshow_input) to scene 'Scene 2'
+18:16:46.735: QFSFileEngine::open: No file name specified
+18:16:47.170: ---------------------------------
+18:16:47.170: [DShow Device: 'Video Capture Device 3'] settings updated: 
+18:16:47.170: 	video device: USB 2.0 Camera
+18:16:47.170: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+18:16:47.170: 	resolution: 1920x1080
+18:16:47.170: 	flip: 0
+18:16:47.170: 	fps: 30.00 (interval: 333333)
+18:16:47.170: 	format: MJPEG
+18:16:47.170: 	buffering: disabled
+18:16:47.170: 	hardware decode: disabled
+18:16:47.268: 	using video device audio: no
+18:16:47.268: 	separate audio filter
+18:16:47.268: 	sample rate: 44100
+18:16:47.268: 	channels: 2
+18:16:47.268: 	audio type: Capture
+18:16:54.431: QFSFileEngine::open: No file name specified
+18:21:45.104: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Video Capture Device 3)
+18:21:45.104: 
+18:22:16.233: User added source 'Video Capture Device 3' (dshow_input) to scene 'Scene 2'
+18:22:16.240: QFSFileEngine::open: No file name specified
+18:22:42.280: QFSFileEngine::open: No file name specified
+18:22:50.884: User added filter 'Color Correction' (color_filter_v2) to source 'Video Capture Device 3'
+18:23:06.783: QFSFileEngine::open: No file name specified
+18:23:20.428: User added source 'Group 3' (group) to scene 'Scene 2'
+18:23:20.435: QFSFileEngine::open: No file name specified
+18:23:31.437: QFSFileEngine::open: No file name specified
+18:23:37.913: User added filter 'Color Correction' (color_filter_v2) to source 'Group 3'
+18:23:57.564: QFSFileEngine::open: No file name specified
+18:24:39.094: Video Capture Device: Video format match failed
+18:24:39.094: Video Capture Device: Video configuration failed
+18:24:42.414: QFSFileEngine::open: No file name specified
+18:24:42.669: Video Capture Device: Video format match failed
+18:24:42.669: Video Capture Device: Video configuration failed
+18:24:51.286: [duplicator-monitor-capture: 'Display Capture'] update settings:
+18:24:51.286: 	display: E320VL (1920x1080)
+18:24:51.286: 	cursor: true
+18:24:51.286: 	method: DXGI
+18:24:51.286: 	id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:24:51.286: 	alt_id: \\.\DISPLAY2
+18:24:51.286: 	setting_id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:24:51.286: 	force SDR: true
+18:25:01.304: [duplicator-monitor-capture: 'Display Capture'] update settings:
+18:25:01.304: 	display: E320VL (1920x1080)
+18:25:01.304: 	cursor: true
+18:25:01.304: 	method: DXGI
+18:25:01.304: 	id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:25:01.304: 	alt_id: \\.\DISPLAY2
+18:25:01.304: 	setting_id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:25:01.304: 	force SDR: false
+18:25:01.870: [duplicator-monitor-capture: 'Display Capture'] update settings:
+18:25:01.870: 	display: E320VL (1920x1080)
+18:25:01.870: 	cursor: true
+18:25:01.870: 	method: DXGI
+18:25:01.870: 	id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:25:01.870: 	alt_id: \\.\DISPLAY2
+18:25:01.870: 	setting_id: \\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+18:25:01.870: 	force SDR: true
+18:25:04.809: QFSFileEngine::open: No file name specified
+18:25:12.598: QFSFileEngine::open: No file name specified
+18:25:29.515: QFSFileEngine::open: No file name specified
+18:27:17.211: User switched to scene 'Scene'
+18:27:19.260: User switched to scene 'Scene 2'
+18:27:20.535: User switched to scene 'Scene'
+18:27:37.703: QFSFileEngine::open: No file name specified
+18:27:39.947: QFSFileEngine::open: No file name specified
+18:27:54.796: QFSFileEngine::open: No file name specified
+18:27:54.973: ---------------------------------
+18:27:54.973: [DShow Device: 'Video Capture Device 2'] settings updated: 
+18:27:54.973: 	video device: USB 2.0 Camera
+18:27:54.973: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+18:27:54.973: 	resolution: 1920x1080
+18:27:54.973: 	flip: 0
+18:27:54.973: 	fps: 30.00 (interval: 333333)
+18:27:54.973: 	format: MJPEG
+18:27:54.973: 	buffering: disabled
+18:27:54.973: 	hardware decode: disabled
+18:27:55.047: 	using video device audio: no
+18:27:55.047: 	separate audio filter
+18:27:55.047: 	sample rate: 44100
+18:27:55.047: 	channels: 2
+18:27:55.047: 	audio type: Capture
+18:27:55.212: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+18:27:55.212: 
+18:27:59.482: User switched to scene 'Scene 2'
+18:28:01.355: User switched to scene 'Scene'
+18:28:02.541: User switched to scene 'Scene 2'
+18:28:04.089: User switched to scene 'Scene'
+18:28:05.413: User switched to scene 'Scene 2'
+18:28:09.477: User switched to scene 'Scene'
+18:28:11.435: User switched to scene 'Scene 2'
+18:28:14.505: User switched to scene 'Scene'
+18:28:32.059: adding 106 milliseconds of audio buffering, total audio buffering is now 149 milliseconds (source: Video Capture Device 3)
+18:28:32.059: 
+18:28:45.350: adding 64 milliseconds of audio buffering, total audio buffering is now 213 milliseconds (source: Video Capture Device 3)
+18:28:45.350: 
+18:28:56.145: adding 64 milliseconds of audio buffering, total audio buffering is now 277 milliseconds (source: Video Capture Device 3)
+18:28:56.145: 
+18:28:58.214: adding 149 milliseconds of audio buffering, total audio buffering is now 426 milliseconds (source: Video Capture Device 3)
+18:28:58.214: 
+18:29:18.544: adding 149 milliseconds of audio buffering, total audio buffering is now 576 milliseconds (source: Video Capture Device 3)
+18:29:18.544: 
+18:30:54.779: adding 362 milliseconds of audio buffering, total audio buffering is now 938 milliseconds (source: Video Capture Device 3)
+18:30:54.779: 
+18:45:20.179: WASAPI: Default output device changed
+18:45:20.184: Device 'Headphones (onn. 30" Soundbar)' invalidated.  Retrying (source: Desktop Audio)
+18:45:20.338: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+18:47:56.859: WASAPI: Default output device changed
+18:47:56.866: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+18:47:57.505: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+19:06:00.700: Max audio buffering reached!
+19:06:00.700: adding 21 milliseconds of audio buffering, total audio buffering is now 960 milliseconds (source: Desktop Audio)
+19:06:00.700: 
+19:07:16.325: Source Desktop Audio audio is lagging (over by 72929.95 ms) at max audio buffering. Restarting source audio.
+19:24:54.869: WASAPI: Default output device changed
+19:24:54.886: Source Desktop Audio audio is lagging (over by 1055893.47 ms) at max audio buffering. Restarting source audio.
+19:24:54.903: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+19:24:55.244: WASAPI: Device 'Headphones (onn. 30" Soundbar)' [44100 Hz] initialized (source: Desktop Audio)
+19:25:10.684: WASAPI: Default output device changed
+19:25:10.690: Device 'Headphones (onn. 30" Soundbar)' invalidated.  Retrying (source: Desktop Audio)
+19:25:10.862: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+19:27:35.887: Source Desktop Audio audio is lagging (over by 74648.24 ms) at max audio buffering. Restarting source audio.
+19:36:02.335: WASAPI: Default output device changed
+19:36:02.340: Source Desktop Audio audio is lagging (over by 502764.29 ms) at max audio buffering. Restarting source audio.
+19:36:02.396: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+19:36:02.549: WASAPI: Device 'Speakers (USB Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+19:39:22.302: WASAPI: Default output device changed
+19:39:22.350: Device 'Speakers (USB Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+19:39:23.108: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+19:55:53.320: User switched to scene 'Scene 2'
+19:59:43.826: User added source 'Browser' (browser_source) to scene 'Scene 2'
+19:59:43.967: QFSFileEngine::open: No file name specified
+20:01:48.411: QFSFileEngine::open: No file name specified
+20:02:10.367: [obs-browser: 'Browser'] Error: [object DOMException] (https://vdo.ninja/webrtc.js?ver=738:1)
+20:09:12.389: QFSFileEngine::open: No file name specified
+20:09:21.325: QFSFileEngine::open: No file name specified
+20:09:37.434: QFSFileEngine::open: No file name specified
+20:11:34.141: Video Capture Device: Video format match failed
+20:11:34.141: Video Capture Device: Video configuration failed
+20:11:42.695: QFSFileEngine::open: No file name specified
+20:11:42.875: Video Capture Device: Video format match failed
+20:11:42.875: Video Capture Device: Video configuration failed
+20:11:49.167: QFSFileEngine::open: No file name specified
+20:12:03.958: User Removed source 'Group' (group) from scene 'Scene 2'
+20:12:03.971: QFSFileEngine::open: No file name specified
+20:12:30.727: Video Capture Device: Video format match failed
+20:12:30.727: Video Capture Device: Video configuration failed
+20:12:35.360: DShow: Could not find filter to open dialog type: 0 with
+20:12:36.959: DShow: Could not find filter to open dialog type: 0 with
+20:12:37.527: DShow: Could not find filter to open dialog type: 0 with
+20:12:40.938: QFSFileEngine::open: No file name specified
+20:12:41.179: Video Capture Device: Video format match failed
+20:12:41.179: Video Capture Device: Video configuration failed
+20:12:49.794: User Removed source 'Group 2' (group) from scene 'Scene 2'
+20:12:49.809: QFSFileEngine::open: No file name specified
+20:12:49.887: User Removed source 'Video Capture Device' (dshow_input) from scene '(null)'
+20:12:49.887: User Removed source 'Audio Output Capture' (wasapi_output_capture) from scene '(null)'
+20:12:49.909: QFSFileEngine::open: No file name specified
+20:14:14.049: QFSFileEngine::open: No file name specified
+20:24:58.271: QFSFileEngine::open: No file name specified
+20:24:58.530: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+20:24:58.530: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+20:28:59.035: User added scene 'Scene 3'
+20:28:59.040: User switched to scene 'Scene 3'
+20:28:59.041: QFSFileEngine::open: No file name specified
+20:29:07.501: User switched to scene 'Scene 2'
+20:29:12.293: User switched to scene 'Scene 3'
+20:29:14.201: User added source 'Browser' (browser_source) to scene 'Scene 3'
+20:29:14.203: QFSFileEngine::open: No file name specified
+20:33:32.160: QFSFileEngine::open: No file name specified
+20:33:32.283: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+20:33:32.284: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+20:34:12.336: QFSFileEngine::open: No file name specified
+20:34:21.925: User switched to scene 'Scene 2'
+20:34:58.577: User switched to scene 'Scene'
+20:35:03.779: QFSFileEngine::open: No file name specified
+20:35:03.785: User added source 'Browser' (browser_source) to scene 'Scene'
+20:35:03.786: QFSFileEngine::open: No file name specified
+20:35:03.790: QFSFileEngine::open: No file name specified
+20:36:54.437: User switched to scene 'Scene 2'
+20:37:14.957: User switched to scene 'Scene'
+20:37:41.896: User switched to scene 'Scene 2'
+20:37:55.169: User switched to scene 'Scene'
+20:37:57.413: User switched to scene 'Scene 2'
+20:37:59.247: User switched to scene 'Scene'
+20:38:00.585: User switched to scene 'Scene 2'
+20:38:03.179: User switched to scene 'Scene'
+20:38:13.776: User switched to scene 'Scene 2'
+20:38:14.799: User switched to scene 'Scene'
+20:38:15.969: User switched to scene 'Scene 2'
+20:38:17.766: User switched to scene 'Scene'
+20:38:18.530: User switched to scene 'Scene 2'
+20:38:19.654: User switched to scene 'Scene'
+20:38:36.628: User switched to scene 'Scene 2'
+20:38:41.271: User switched to scene 'Scene'
+20:38:42.950: User switched to scene 'Scene 2'
+20:38:44.296: User switched to scene 'Scene'
+20:38:45.394: User switched to scene 'Scene 2'
+20:38:53.176: User switched to scene 'Scene'
+20:38:54.366: User switched to scene 'Scene 2'
+20:38:55.503: User switched to scene 'Scene'
+20:38:56.832: User switched to scene 'Scene 2'
+20:38:58.933: User switched to scene 'Scene'
+20:39:10.414: User switched to scene 'Scene 3'
+20:39:11.620: User switched to scene 'Scene'
+20:39:12.321: User switched to scene 'Scene 2'
+20:39:13.582: User switched to scene 'Scene'
+20:39:14.436: User switched to scene 'Scene 2'
+20:39:15.782: User switched to scene 'Scene'
+20:39:16.759: User switched to scene 'Scene 2'
+20:40:08.085: Last log entry repeated for 8 more lines
+20:40:08.085: User added source 'Browser' (browser_source) to scene 'Scene 3'
+20:40:08.087: QFSFileEngine::open: No file name specified
+20:40:10.136: User added source 'Browser' (browser_source) to scene 'Scene 3'
+20:40:10.139: QFSFileEngine::open: No file name specified
+20:40:13.882: User added source 'Browser' (browser_source) to scene 'Scene 3'
+20:40:13.884: QFSFileEngine::open: No file name specified
+20:40:22.324: QFSFileEngine::open: No file name specified
+20:40:32.091: User added filter 'Color Correction' (color_filter_v2) to source 'Browser'
+20:40:58.337: User switched to scene 'Scene'
+20:41:21.264: User switched to scene 'Scene 2'
+20:42:07.963: User switched to scene 'Scene'
+20:42:14.364: User switched to scene 'Scene 2'
+20:42:44.757: User Removed source 'Group 3' (group) from scene 'Scene 2'
+20:42:44.767: QFSFileEngine::open: No file name specified
+20:42:44.841: User Removed source 'Video Capture Device 3' (dshow_input) from scene '(null)'
+20:42:44.855: QFSFileEngine::open: No file name specified
+20:43:19.177: QFSFileEngine::open: No file name specified
+20:54:14.043: QFSFileEngine::open: No file name specified
+20:54:14.158: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+20:54:14.160: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+21:00:44.652: QFSFileEngine::open: No file name specified
+21:00:45.109: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+21:00:45.110: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+21:04:25.061: QFSFileEngine::open: No file name specified
+21:04:25.511: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+21:04:25.525: [obs-browser: '<unknown>'] Error: video not found (https://vdo.ninja/webrtc.js?ver=738:1)
+21:08:00.216: QFSFileEngine::open: No file name specified
+21:08:09.232: QFSFileEngine::open: No file name specified
+21:15:25.613: User switched to scene 'Scene 3'
+21:15:34.943: User switched to scene 'Scene'
+21:15:38.491: User switched to scene 'Scene 2'
+21:16:21.014: User added source 'Browser' (browser_source) to scene 'Scene 2'
+21:16:21.019: QFSFileEngine::open: No file name specified
+21:16:30.517: User added source 'Group' (group) to scene 'Scene 2'
+21:16:30.525: QFSFileEngine::open: No file name specified
+21:16:39.152: Source 'Group' renamed to 'moving'
+21:16:39.156: QFSFileEngine::open: No file name specified
+21:16:48.303: User added source 'moving 2' (group) to scene 'Scene 2'
+21:16:48.311: QFSFileEngine::open: No file name specified
+21:16:52.410: QFSFileEngine::open: No file name specified
+21:17:06.195: User added filter 'Move Action' (move_action_filter) to source 'moving 2'
+21:18:02.316: User removed filter 'Move Action' (move_action_filter) from source 'moving 2'
+21:18:02.339: QFSFileEngine::open: No file name specified
+21:18:25.801: User added filter 'Scroll' (scroll_filter) to source 'moving 2'
+21:21:49.618: QFSFileEngine::open: No file name specified
+21:21:58.447: QFSFileEngine::open: No file name specified
+21:22:07.252: User added filter 'Scroll' (scroll_filter) to source 'moving'
+21:23:49.950: QFSFileEngine::open: No file name specified
+21:23:56.140: User added source 'moving 3' (group) to scene 'Scene 2'
+21:23:56.148: QFSFileEngine::open: No file name specified
+21:24:01.731: QFSFileEngine::open: No file name specified
+21:24:28.232: QFSFileEngine::open: No file name specified
+21:24:39.561: User added source 'Browser' (browser_source) to scene 'Scene 2'
+21:24:39.568: QFSFileEngine::open: No file name specified
+21:24:45.194: User added source 'Group' (group) to scene 'Scene 2'
+21:24:45.204: QFSFileEngine::open: No file name specified
+21:24:52.163: Source 'Group' renamed to 'rota'
+21:24:52.172: QFSFileEngine::open: No file name specified
+21:24:59.162: QFSFileEngine::open: No file name specified
+21:25:36.161: QFSFileEngine::open: No file name specified
+21:25:53.954: User added source 'rota 2' (group) to scene 'Scene 2'
+21:25:53.975: QFSFileEngine::open: No file name specified
+21:26:21.323: User added source 'Browser' (browser_source) to scene 'Scene 2'
+21:26:21.333: QFSFileEngine::open: No file name specified
+21:26:49.203: User added source 'Group' (group) to scene 'Scene 2'
+21:26:49.217: QFSFileEngine::open: No file name specified
+21:26:55.559: Source 'Group' renamed to 'shifted'
+21:26:55.573: QFSFileEngine::open: No file name specified
+21:27:12.246: User switched to scene 'Scene'
+21:27:18.667: QFSFileEngine::open: No file name specified
+21:27:18.732: User added source 'shifted 2' (group) to scene 'Scene'
+21:27:18.733: QFSFileEngine::open: No file name specified
+21:27:18.738: QFSFileEngine::open: No file name specified
+21:27:59.133: QFSFileEngine::open: No file name specified
+21:28:10.512: User added filter 'Render Delay' (gpu_delay) to source 'shifted 2'
+21:28:44.177: QFSFileEngine::open: No file name specified
+21:28:50.486: QFSFileEngine::open: No file name specified
+21:28:53.461: QFSFileEngine::open: No file name specified
+21:29:22.221: User removed filter 'Color Correction' (color_filter_v2) from source 'Browser'
+21:29:22.228: QFSFileEngine::open: No file name specified
+21:29:31.882: User added filter 'Color Correction' (color_filter_v2) to source 'Browser'
+21:32:46.144: QFSFileEngine::open: No file name specified
+21:33:09.613: User switched to scene 'Scene 2'
+21:33:24.178: QFSFileEngine::open: No file name specified
+21:33:30.924: User added filter 'Render Delay' (gpu_delay) to source 'shifted'
+21:33:35.760: QFSFileEngine::open: No file name specified
+21:34:37.217: User switched to scene 'Scene'
+21:34:41.682: User switched to scene 'Scene 3'
+21:35:17.534: QFSFileEngine::open: No file name specified
+21:35:22.999: QFSFileEngine::open: No file name specified
+21:35:30.305: User added filter 'Sharpen' (sharpness_filter_v2) to source 'Browser'
+21:36:06.160: User switched to scene 'Scene'
+21:36:13.984: User switched to scene 'Scene 2'
+21:36:20.468: User switched to scene 'Scene 3'
+21:36:21.916: User switched to scene 'Scene'
+21:36:25.873: User switched to scene 'Scene 3'
+21:36:31.151: QFSFileEngine::open: No file name specified
+21:36:36.910: QFSFileEngine::open: No file name specified
+21:37:40.852: QFSFileEngine::open: No file name specified
+21:37:42.737: User switched to scene 'Scene'
+21:37:46.800: User switched to scene 'Scene 2'
+21:37:52.059: User switched to scene 'Scene'
+21:37:53.355: User switched to scene 'Scene 3'
+21:38:00.014: QFSFileEngine::open: No file name specified
+21:38:07.296: User switched to scene 'Scene'
+21:38:35.171: QFSFileEngine::open: No file name specified
+21:38:37.344: User switched to scene 'Scene 3'
+21:39:01.772: User switched to scene 'Scene'
+21:39:52.883: Source 'Scene' renamed to 'CompME'
+21:39:52.887: QFSFileEngine::open: No file name specified
+21:40:01.252: User switched to scene 'Scene 2'
+21:40:17.803: Source 'Scene 2' renamed to 'CompMeSketch'
+21:40:17.806: QFSFileEngine::open: No file name specified
+21:40:19.222: User switched to scene 'Scene 3'
+21:40:28.609: Source 'Scene 3' renamed to 'Me'
+21:40:28.611: QFSFileEngine::open: No file name specified
+21:40:34.812: User switched to scene 'CompMeSketch'
+21:40:47.725: User added scene 'CompSketch'
+21:40:47.725: User added source 'Display Capture' (monitor_capture) to scene 'CompSketch'
+21:40:47.725: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'CompSketch'
+21:40:47.726: User added source 'Video Capture Device 3' (dshow_input) to scene 'CompSketch'
+21:40:47.726: User added source 'Browser' (browser_source) to scene 'CompSketch'
+21:40:47.726: User added source 'moving' (group) to scene 'CompSketch'
+21:40:47.727: User added source 'moving 2' (group) to scene 'CompSketch'
+21:40:47.727: User added source 'moving 3' (group) to scene 'CompSketch'
+21:40:47.727: User added source 'rota' (group) to scene 'CompSketch'
+21:40:47.727: User added source 'rota 2' (group) to scene 'CompSketch'
+21:40:47.727: User added source 'shifted' (group) to scene 'CompSketch'
+21:40:48.005: Switched to scene 'CompSketch'
+21:40:48.010: QFSFileEngine::open: No file name specified
+21:40:58.039: User Removed source 'shifted' (group) from scene 'CompSketch'
+21:40:58.054: QFSFileEngine::open: No file name specified
+21:41:00.954: User switched to scene 'CompMeSketch'
+21:41:04.832: User switched to scene 'CompSketch'
+21:41:14.036: User Removed source 'rota' (group) from scene 'CompSketch'
+21:41:14.052: QFSFileEngine::open: No file name specified
+21:41:15.402: User switched to scene 'CompMeSketch'
+21:41:17.321: User switched to scene 'CompSketch'
+21:41:23.823: User Removed source 'rota 2' (group) from scene 'CompSketch'
+21:41:23.844: QFSFileEngine::open: No file name specified
+21:41:29.069: User Removed source 'moving 3' (group) from scene 'CompSketch'
+21:41:29.081: QFSFileEngine::open: No file name specified
+21:41:33.965: User Removed source 'moving 2' (group) from scene 'CompSketch'
+21:41:33.974: QFSFileEngine::open: No file name specified
+21:41:38.363: User Removed source 'moving' (group) from scene 'CompSketch'
+21:41:38.375: QFSFileEngine::open: No file name specified
+21:41:46.395: User switched to scene 'CompMeSketch'
+21:42:00.165: Source 'CompMeSketch' renamed to 'CompMeSketch (fancy)'
+21:42:00.172: QFSFileEngine::open: No file name specified
+21:42:05.112: User switched to scene 'CompSketch'
+21:42:25.453: Source 'CompSketch' renamed to 'CompMeSketch'
+21:42:25.457: QFSFileEngine::open: No file name specified
+21:42:27.582: User switched to scene 'CompME'
+21:42:58.640: QFSFileEngine::open: No file name specified
+21:43:01.442: QFSFileEngine::open: No file name specified
+21:43:05.392: QFSFileEngine::open: No file name specified
+21:44:07.812: User removed filter 'Color Correction' (color_filter_v2) from source 'Browser'
+21:44:07.852: QFSFileEngine::open: No file name specified
+21:44:13.616: QFSFileEngine::open: No file name specified
+21:44:18.549: QFSFileEngine::open: No file name specified
+21:44:28.862: User added filter 'Color Correction' (color_filter_v2) to source 'shifted 2'
+21:44:41.506: User switched to scene 'Me'
+21:44:52.457: User added source 'Group' (group) to scene 'Me'
+21:44:52.460: QFSFileEngine::open: No file name specified
+21:45:01.923: QFSFileEngine::open: No file name specified
+21:45:10.939: User added filter 'Render Delay' (gpu_delay) to source 'Group'
+21:45:17.091: QFSFileEngine::open: No file name specified
+21:45:23.393: QFSFileEngine::open: No file name specified
+21:45:29.748: User added filter 'Color Correction' (color_filter_v2) to source 'Group'
+21:46:05.450: QFSFileEngine::open: No file name specified
+21:46:09.079: User switched to scene 'CompMeSketch'
+21:46:12.941: User switched to scene 'CompMeSketch (fancy)'
+21:46:18.127: User switched to scene 'Me'
+21:46:24.119: QFSFileEngine::open: No file name specified
+21:46:40.679: User removed filter 'Color Correction' (color_filter_v2) from source 'Group'
+21:46:40.713: QFSFileEngine::open: No file name specified
+21:46:53.351: User removed filter 'Render Delay' (gpu_delay) from source 'Group'
+21:46:53.354: QFSFileEngine::open: No file name specified
+21:46:57.500: QFSFileEngine::open: No file name specified
+21:46:58.952: User switched to scene 'CompMeSketch'
+21:47:03.478: User switched to scene 'CompMeSketch (fancy)'
+21:47:35.612: QFSFileEngine::open: No file name specified
+21:47:43.074: User added filter 'Color Correction' (color_filter_v2) to source 'Browser'
+21:48:11.677: User switched to scene 'CompME'
+21:48:18.646: User switched to scene 'CompMeSketch (fancy)'
+21:48:22.236: User switched to scene 'CompMeSketch'
+21:48:24.717: User switched to scene 'Me'
+21:48:43.960: QFSFileEngine::open: No file name specified
+21:48:49.317: User switched to scene 'CompMeSketch'
+21:48:53.718: User switched to scene 'CompMeSketch (fancy)'
+21:48:59.022: User switched to scene 'CompME'
+21:49:18.881: QFSFileEngine::open: No file name specified
+21:49:35.223: User switched to scene 'CompMeSketch (fancy)'
+21:50:03.891: User switched to scene 'CompME'
+21:50:26.230: User switched to scene 'Me'
+21:50:28.849: User switched to scene 'CompMeSketch'
+21:50:48.146: User switched to scene 'CompMeSketch (fancy)'
+21:50:54.252: User switched to scene 'CompME'
+21:51:03.181: QFSFileEngine::open: No file name specified
+21:51:09.159: User switched to scene 'Me'
+21:51:38.227: User added source 'Group 2' (group) to scene 'Me'
+21:51:38.232: QFSFileEngine::open: No file name specified
+21:51:45.080: QFSFileEngine::open: No file name specified
+21:51:52.066: User added filter 'Color Correction' (color_filter_v2) to source 'Group 2'
+21:52:30.769: User switched to scene 'CompMeSketch'
+21:52:32.903: User switched to scene 'CompMeSketch (fancy)'
+21:52:35.501: User switched to scene 'CompME'
+21:52:40.381: User switched to scene 'Me'
+21:53:29.578: User added filter 'Sharpen' (sharpness_filter_v2) to source 'Group 2'
+21:57:52.609: QFSFileEngine::open: No file name specified
+21:58:33.651: QFSFileEngine::open: No file name specified
+21:59:29.721: QFSFileEngine::open: No file name specified
+21:59:47.376: User added filter 'Render Delay' (gpu_delay) to source 'Group 2'
+21:59:53.533: QFSFileEngine::open: No file name specified
+22:00:00.474: QFSFileEngine::open: No file name specified
+22:00:45.447: QFSFileEngine::open: No file name specified
+22:00:50.467: QFSFileEngine::open: No file name specified
+22:01:23.323: User removed filter 'Render Delay' (gpu_delay) from source 'Group 2'
+22:01:23.355: QFSFileEngine::open: No file name specified
+22:02:02.905: User added filter 'Chroma Key' (chroma_key_filter_v2) to source 'Group 2'
+22:04:10.016: User removed filter 'Chroma Key' (chroma_key_filter_v2) from source 'Group 2'
+22:04:10.054: QFSFileEngine::open: No file name specified
+22:04:16.268: QFSFileEngine::open: No file name specified
+22:04:27.757: User switched to scene 'CompMeSketch'
+22:04:32.969: User switched to scene 'CompMeSketch (fancy)'
+22:04:35.457: User switched to scene 'CompME'
+22:04:51.415: User switched to scene 'CompMeSketch'
+22:05:00.518: User added scene 'CompSketch'
+22:05:00.519: User added source 'Display Capture' (monitor_capture) to scene 'CompSketch'
+22:05:00.520: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'CompSketch'
+22:05:00.520: User added source 'Video Capture Device 3' (dshow_input) to scene 'CompSketch'
+22:05:00.521: User added source 'Browser' (browser_source) to scene 'CompSketch'
+22:05:00.623: Switched to scene 'CompSketch'
+22:05:00.625: QFSFileEngine::open: No file name specified
+22:05:13.182: User Removed source 'Browser' (browser_source) from scene 'CompSketch'
+22:05:13.188: QFSFileEngine::open: No file name specified
+22:05:44.869: User added scene 'Sketch'
+22:05:44.870: User added source 'Display Capture' (monitor_capture) to scene 'Sketch'
+22:05:44.871: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'Sketch'
+22:05:44.871: User added source 'Video Capture Device 3' (dshow_input) to scene 'Sketch'
+22:05:44.957: Switched to scene 'Sketch'
+22:05:44.958: QFSFileEngine::open: No file name specified
+22:05:48.344: User switched to scene 'CompSketch'
+22:05:53.685: User added scene 'Comp'
+22:05:53.685: User added source 'Display Capture' (monitor_capture) to scene 'Comp'
+22:05:53.685: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'Comp'
+22:05:53.685: User added source 'Video Capture Device 3' (dshow_input) to scene 'Comp'
+22:05:53.767: Switched to scene 'Comp'
+22:05:53.768: QFSFileEngine::open: No file name specified
+22:06:03.154: User Removed source 'Video Capture Device 3' (dshow_input) from scene 'Comp'
+22:06:03.163: QFSFileEngine::open: No file name specified
+22:06:05.718: User switched to scene 'Sketch'
+22:06:08.331: User Removed source 'Display Capture' (monitor_capture) from scene 'Sketch'
+22:06:08.341: QFSFileEngine::open: No file name specified
+22:06:34.158: User switched to scene 'Me'
+22:06:35.507: User switched to scene 'Sketch'
+22:06:36.981: User switched to scene 'Comp'
+22:06:38.483: User switched to scene 'CompSketch'
+22:06:40.691: User switched to scene 'Comp'
+22:06:41.660: User switched to scene 'CompSketch'
+22:06:42.404: User switched to scene 'CompMeSketch'
+22:06:44.029: User switched to scene 'CompMeSketch (fancy)'
+22:06:46.197: User switched to scene 'CompME'
+22:06:48.408: User switched to scene 'CompMeSketch (fancy)'
+22:06:55.922: User switched to scene 'CompME'
+22:07:03.543: QFSFileEngine::open: No file name specified
+22:07:03.546: User Removed source 'Display Capture' (monitor_capture) from scene 'CompME'
+22:07:03.546: QFSFileEngine::open: No file name specified
+22:07:03.562: QFSFileEngine::open: No file name specified
+22:07:08.978: QFSFileEngine::open: No file name specified
+22:07:08.988: User added source 'Display Capture' (monitor_capture) to scene 'CompME'
+22:07:08.989: QFSFileEngine::open: No file name specified
+22:07:08.992: QFSFileEngine::open: No file name specified
+22:07:15.776: User switched to scene 'CompMeSketch (fancy)'
+22:07:18.134: User switched to scene 'CompME'
+22:07:20.262: User switched to scene 'CompMeSketch (fancy)'
+22:07:22.033: User switched to scene 'CompMeSketch'
+22:07:23.976: User switched to scene 'CompSketch'
+22:07:26.018: User switched to scene 'Comp'
+22:07:27.637: User switched to scene 'Sketch'
+22:07:29.586: User switched to scene 'Comp'
+22:07:31.107: User switched to scene 'CompSketch'
+22:07:32.257: User switched to scene 'Comp'
+22:07:33.236: User switched to scene 'CompSketch'
+22:07:34.228: User switched to scene 'Sketch'
+22:07:35.394: User switched to scene 'Me'
+22:09:40.430: Created profile 'VDONinja_set_up_Main_1' (duplicate, VDONinja_set_up_Main_1)
+22:09:40.430: ------------------------------------------------
+22:09:42.076: ------------------------------------------------
+22:09:42.076: Removed profile 'hmj' (hmj)
+22:09:42.076: ------------------------------------------------
+22:18:05.292: WASAPI: Default output device changed
+22:18:05.407: Device 'E320VL (HD Audio Driver for Display Audio)' invalidated.  Retrying (source: Desktop Audio)
+22:18:06.069: WASAPI: Device 'Headphones (onn. 30" Soundbar)' [44100 Hz] initialized (source: Desktop Audio)
+22:18:18.478: >>> new qsv encoder
+22:18:18.479: [qsv encoder: 'simple_video_stream'] settings:
+22:18:18.479: 	codec:          H.264
+22:18:18.479: 	rate_control:   CBR
+22:18:18.479: 	target_bitrate: 669
+22:18:18.479: 	Lookahead Depth:60
+22:18:18.480: 	target_usage:   TU4
+22:18:18.480: 	profile:        high
+22:18:18.480: 	keyint:         2
+22:18:18.480: 	latency:        normal
+22:18:18.480: 	b-frames:       3
+22:18:18.480: 	enhancements:   on
+22:18:18.480: 	fps_num:        60
+22:18:18.480: 	fps_den:        1
+22:18:18.480: 	width:          424
+22:18:18.480: 	height:         240
+22:18:18.480: [qsv encoder: 'simple_video_stream'] debug info:
+22:18:18.758: 	surf:           Texture
+22:18:19.077: 	m_nSurfNum:     9
+22:18:19.091: 	m_nTaskPool:    4
+22:18:19.091: 	major:          1
+22:18:19.091: 	minor:          35
+22:18:19.096: ---------------------------------
+22:18:19.099: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo
+22:18:19.099: 
+22:18:19.191: ==== Recording Start ===============================================
+22:18:19.191: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/william/Videos/2024-01-15 22-18-18.mkv'...
+22:18:19.193: QFSFileEngine::open: No file name specified
+22:18:35.412: User switched to scene 'Sketch'
+22:18:38.346: User switched to scene 'Comp'
+22:18:42.098: User switched to scene 'CompSketch'
+22:18:47.565: User switched to scene 'CompMeSketch'
+22:18:57.049: User switched to scene 'CompMeSketch (fancy)'
+22:19:05.851: User switched to scene 'CompME'
+22:19:09.032: User switched to scene 'Me'
+22:19:18.413: User switched to scene 'CompSketch'
+22:19:43.552: User added scene 'CompSketch (L)'
+22:19:43.558: User added source 'Display Capture' (monitor_capture) to scene 'CompSketch (L)'
+22:19:43.559: User added source 'Audio Output Capture' (wasapi_output_capture) to scene 'CompSketch (L)'
+22:19:43.559: User added source 'Video Capture Device 3' (dshow_input) to scene 'CompSketch (L)'
+22:19:43.628: Switched to scene 'CompSketch (L)'
+22:19:43.631: QFSFileEngine::open: No file name specified
+22:20:09.476: User switched to scene 'CompSketch'
+22:20:21.146: Source 'CompSketch' renamed to 'CompSketch (R)'
+22:20:21.151: QFSFileEngine::open: No file name specified
+22:20:25.138: User switched to scene 'CompSketch (L)'
+22:20:26.876: User switched to scene 'CompSketch (R)'
+22:20:27.875: User switched to scene 'CompSketch (L)'
+22:20:32.011: User switched to scene 'CompSketch (R)'
+22:20:53.941: User switched to scene 'CompSketch (L)'
+22:21:00.859: User switched to scene 'CompSketch (R)'
+22:21:03.217: User switched to scene 'Comp'
+22:21:09.697: User switched to scene 'CompMeSketch'
+22:21:11.506: User switched to scene 'CompMeSketch (fancy)'
+22:21:13.314: User switched to scene 'CompME'
+22:22:18.825:   OpenType support missing for "Open Sans", script 12
+22:22:18.833:   OpenType support missing for "Arial", script 12
+22:22:18.840:   OpenType support missing for "Tahoma", script 12
+22:22:18.851:   OpenType support missing for "EUDC", script 12
+22:22:18.870:   OpenType support missing for "MS UI Gothic", script 12
+22:22:18.877:   OpenType support missing for "SimSun", script 12
+22:22:18.891:   OpenType support missing for "Segoe UI Emoji", script 12
+22:22:18.899:   OpenType support missing for "Segoe UI Symbol", script 12
+22:22:21.689:   OpenType support missing for "Open Sans", script 11
+22:22:21.692:   OpenType support missing for "Arial", script 11
+22:22:21.696:   OpenType support missing for "Tahoma", script 11
+22:22:21.699:   OpenType support missing for "EUDC", script 11
+22:22:21.705:   OpenType support missing for "MS UI Gothic", script 11
+22:22:21.708:   OpenType support missing for "SimSun", script 11
+22:22:21.711:   OpenType support missing for "Segoe UI Emoji", script 11
+22:22:21.713:   OpenType support missing for "Segoe UI Symbol", script 11
+22:22:21.718:   OpenType support missing for "Open Sans", script 16
+22:22:21.721:   OpenType support missing for "Arial", script 16
+22:22:21.724:   OpenType support missing for "Tahoma", script 16
+22:22:21.725:   OpenType support missing for "EUDC", script 16
+22:22:21.727:   OpenType support missing for "MS UI Gothic", script 16
+22:22:21.730:   OpenType support missing for "SimSun", script 16
+22:22:21.731:   OpenType support missing for "Segoe UI Emoji", script 16
+22:22:21.733:   OpenType support missing for "Segoe UI Symbol", script 16
+22:22:21.738:   OpenType support missing for "Open Sans", script 20
+22:22:21.741:   OpenType support missing for "Arial", script 20
+22:22:21.744:   OpenType support missing for "Tahoma", script 20
+22:22:21.746:   OpenType support missing for "EUDC", script 20
+22:22:21.749:   OpenType support missing for "MS UI Gothic", script 20
+22:22:21.751:   OpenType support missing for "SimSun", script 20
+22:22:21.753:   OpenType support missing for "Segoe UI Emoji", script 20
+22:24:00.512: Last log entry repeated for 2 more lines
+22:24:00.512: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/william/Videos/2024-01-15 22-18-18.mkv' stopped
+22:24:00.512: Output 'simple_file_output': stopping
+22:24:00.513: Output 'simple_file_output': Total frames output: 20411
+22:24:00.513: Output 'simple_file_output': Total drawn frames: 20331 (20480 attempted)
+22:24:00.513: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 149 (0.7%)
+22:24:00.514: ==== Recording Stop ================================================
+22:24:00.515: Video stopped, number of skipped frames due to encoding lag: 300/20474 (1.5%)
+22:24:00.536: warning: 2 frames left in the queue on closing

@@ -1,0 +1,87 @@
+ROOM (OPTIONAL)
+Example room name: ThirstyPoint
+[Document]
+_____________________________________________
+INVITE (OPTIONAL)
+Custom Push ID      [H-GolEm]
+Password            [GerSpinWorlds1FingazHockEtherOre]
+Language            [English]
+____________________________
+SHARING TYPES
+Allow all [x]
+Camera    [ ]
+Screen    [ ]
+File      [ ]
+____________________________________
+GUEST FEATURES
+Raise hand feature               [x]
+Hide settings button             [ ]
+Auto-start                       [ ]
+Guest only sees director feed    [ ]
+Ask for display name             [x]
+Show display names               [x]
+Set display name                 [ ]
+Transcribe                       [ ]
+____________________________________
+VIDEO
+Default quality                  [ ]
+Up to 1080p60                    [x]
+Up to 720p30                     [ ]
+Up to 360p30                     [ ]
+Disable self-preview             [ ]
+Auto select default camera       [ ]
+Disable camera                   [ ]
+Pre-select video device named    [ ]
+Bitrate (Kbps)                   [ ]
+____________________________________
+AUDIO
+Standard audio mode              [ ]
+Pro-audio                        [x]
+Force mono                       [ ]
+Auto select default microphone   [ ]
+Audio compressor                 [x]
+Mute microphone by default       [ ]
+Disable audio processing         [ ]
+Vertical Audio Meter style       [x]
+Pre-select audio device named    [ ]
+_____________________________________________
+GENERAL OPTIONS
+CSS URL                                  [ ]
+URL-encod CSS (click here to encode)     [ ]
+* BETA feature - Enables beta links
+Hide header                              [x]
+Show Closed Captions                     [x]
+____________________________________________**
+DIRECTOR OPTIONS
+Show Director   [x]
+Clean Director  [ ]
+Rooms:           [ChronicleCove,CosmosCorner,EnigmaEnclosure,VortexOfVision,AlgorithmAlley,ParadoxPavilion,SynapseSymposium,QuantumQuarters,NebulaNexus,ScoutSector,LeewayForLegends,BilletOfBrilliance,HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity]
+______________________________________________*
+Guest invite Link QR Code :
+Beta      []
+Obfuscate []
+[https://vdo.ninja/?push=H-GolEm&room=Document&pw=GerSpinWorlds1FingazHockEtherOre&hands&ll&q=0&s&meterstyle=1&comp&noheader]
+
+or
+
+{https://vdo.ninja/?room=Documenthowdirector&hash=efca}   --> works better
+______________________________________________*
+Viewer (OBS) Link QR Code :
+Beta      []
+Obfuscate []
+[https://vdo.ninja/?view=H-GolEm&room=Document&pw=GerSpinWorlds1FingazHockEtherOrel&s&cc&scene]
+______________________________________________*
+Director Link :
+[https://vdo.ninja/?dir=Documenthowdirector&rooms=ChronicleCove,CosmosCorner,EnigmaEnclosure,VortexOfVision,AlgorithmAlley,ParadoxPavilion,SynapseSymposium,QuantumQuarters,NebulaNexus,ScoutSector,LeewayForLegends,BilletOfBrilliance,HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity&pw=GerSpinWorlds1FingazHockEtherOre]
+____________________________
+OBS Link:
+
+https://vdo.ninja/?scene&room=Documenthowdirector&password=GerSpinWorlds1FingazHockEtherOre
+
+____________________________________Static:
+Director:
+OUT(put in obs):
+https://vdo.ninja/?view=tG7yuJRvIWXnPBjWFLqrMiZzv&pw=GerSpinWorlds1FingazHockEtherOre
+_______________________________
+IN(put on phone):
+https://vdo.ninja/?room-Documenthowdirector&hash=efca&push=tG7yuJRvIWXnPBjWFLqrMiZzv

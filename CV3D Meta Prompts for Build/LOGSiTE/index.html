@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Change Log</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add responsive zalgo text */
+        .zalgo {
+            font-size: 1.5em;
+            color: rgba(255, 0, 0, 0.8);
+        }
+
+        /* Add dynamic ASCII art styles */
+        .ascii-art {
+            font-family: 'Courier New', monospace;
+            font-size: 20px;
+            opacity: 0.7;
+        }
+
+        /* Keyframe animation for ASCII art */
+        @keyframes asciiAnimation {
+            0% {
+                transform: scale(1) rotate(0deg);
+                opacity: 0.7;
+            }
+            50% {
+                transform: scale(1.2) rotate(180deg);
+                opacity: 0.9;
+            }
+            100% {
+                transform: scale(1) rotate(360deg);
+                opacity: 0.7;
+            }
+        }
+
+        .ascii-art.animated {
+            animation: asciiAnimation 5s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Change Log <span class="zalgo">Optimization</span></h1>
+        <div class="ascii-art animated">╰(°▽°)╯</div>
+        <div id="logForm">
+            <!-- Grouped input for user responses -->
+            <div class="grouped-input">
+                <label for="answer1">What would you like ChatGPT to know about you?</label>
+                <input type="text" id="answer1" placeholder="Your response...">
+            </div>
+            <div class="grouped-input">
+                <label for="answer2">How would you like ChatGPT to respond?</label>
+                <input type="text" id="answer2" placeholder="Your response...">
+            </div>
+            <button onclick="addLogEntry()">Submit Responses</button>
+        </div>
+        <div id="logEntries"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

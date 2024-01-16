@@ -1,0 +1,10 @@
+INFO: Platform: win32
+INFO: Version Info: v0.3.0
+DEBUG: Log Path: cp.log
+DEBUG: command: ['python', 'C:\\Users\\william\\Documents\\GitHub\\Cv3D\\CV3D Meta Prompts for Build\\ai custom ins log updater .py']
+DEBUG: file: None
+DEBUG: pause: True
+DEBUG: repl: python
+DEBUG: args: ['C:\\Users\\william\\Documents\\GitHub\\Cv3D\\CV3D Meta Prompts for Build\\ai custom ins log updater .py']
+INFO: return code: 0 (0x0)
+INFO: elapsed time: 0.166005

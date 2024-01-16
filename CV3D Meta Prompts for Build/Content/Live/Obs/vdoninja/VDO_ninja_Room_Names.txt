@@ -1,0 +1,86 @@
+Original Rooms I wanted but was blocked due to UTF-8 config rules on VDONinja
+
+Ξ,Λ,A,Δ,◯,ф,פ,ש,Ω,Θ,⚫,Я,ה,א,Ж,ם,∇,III,G,λ,Ю
+
+_________________________________________________________________
+Expanse: Suggests vastness and exploration, fitting for discussions that span broad topics like space, sci-fi, and philosophy.
+
+Chamber: Evokes a sense of a private, enclosed space for deep discussions, suitable for psychological or philosophical topics.
+
+Legroom: Metaphorically implies space for expansive thinking or 'stretching' one's understanding, aligning with high-level mathematics and coding.
+
+Latitude: Represents freedom and range, aligning with themes of creativity in science and philosophy.
+
+Reconnoiter: A less common term that suggests exploration and observation, fitting for scientific and exploratory discussions.
+
+Headroom: Implies space for growth or thought, suitable for intellectual and high-level discussions.
+
+Billet: A unique term that can imply a specialized space or role, aligning with the podcast's theme of hosting diverse topics.
+
+Leeway: Suggests flexibility and openness, key for discussions involving philosophy, psychology, and cultural topics.
+
+Scout: Evokes exploration and discovery, resonating with themes of science and technology.
+#######################################################################\
+=============================================================           |
+#######################################################################/
+
+************************************************/
+Mains:                                         |
+_______________________________________________#
+#Nebula Nexus: Where cosmic ideas and sci-fi fantasies converge, creating a galaxy of imagination and wonder.
+
+#Quantum Quarters: A quantum leap into the depths of physics and mathematics, unraveling the mysteries of the universe.
+
+#Synapse Symposium: A meeting of minds, exploring the intricate networks of neural science and psychology.
+
+#Paradox Pavilion: A place where philosophical dilemmas and thought-provoking paradoxes come to life.
+
+#Algorithm Alley: A coder's paradise, delving into the complex world of algorithms and electronic innovations.
+
+#Vortex of Vision: A dynamic whirlpool of ideas, embracing complexity in science, technology, and culture.
+
+#Enigma Enclosure: For unraveling the most mysterious and complex topics across all disciplines.
+
+#Cosmos Corner: A universal junction for discussions that span the vastness of science and the wonders of space.
+
+#Chronicle Cove: A timeless retreat echoing with the wisdom of the ages, where history meets the future in a symphony of knowledge.
+***********************************************/
+Alts:                                         |
+_____________________________________________#
+#Expanse of Infinity: A room dedicated to exploring the boundless realms of space, sci-fi, and the unknown in physics and culture.
+
+#Chamber of Insights: A private enclave for deep, reflective discussions on philosophy, psychology, and the human condition.
+
+#Legroom for Logic: A space where ideas stretch and grow, perfect for delving into complex mathematics and coding challenges.
+
+#Latitude of Thought: A room that celebrates the freedom of ideas, encouraging creative and unconventional approaches in science and philosophy.
+
+#Reconnoiter Realm: A hub for exploration and observation, focusing on the latest discoveries and innovations in science and technology.
+
+#Headroom for Horizons: A space that encourages intellectual growth and the pursuit of new horizons in neuroscience and behavioral studies.
+
+#Billet of Brilliance: A specialized zone for intensive, focused discussions on niche topics across all featured disciplines.
+
+#Leeway for Legends: A flexible and open forum for legendary debates and discussions on cultural, philosophical, and psychological topics.
+
+#Scout Sector: Dedicated to pioneering ideas and scouting the frontiers of knowledge in various scientific fields.
+
+##########################################/
+#########################################|
+ ROOMS-SHRT_____________________________/
+  Cuts  #/
+########/
+______
+Mains|
+####/
+___|
+ChronicleCove,CosmosCorner,EnigmaEnclosure,
+VortexOfVision,AlgorithmAlley,ParadoxPavilion,
+SynapseSymposium,QuantumQuarters,NebulaNexus
+______
+Alts |
+####/
+___|
+ScoutSector,LeewayForLegends,BilletOfBrilliance,
+HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,
+LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity

@@ -1,0 +1,123 @@
+
+<!-- saved from url=(0025)https://invite.vdo.ninja/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>vdo.ninja invite link generator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="./vdo.ninja invite link generator_files/randomName.js.download"></script>
+<script src="./vdo.ninja invite link generator_files/aes.js.download"></script>
+<script src="./vdo.ninja invite link generator_files/qrjs2.js.download"></script>
+<script src="./vdo.ninja invite link generator_files/main.js.download"></script>
+<link rel="stylesheet" href="./vdo.ninja invite link generator_files/style.css">
+<link rel="stylesheet" href="./vdo.ninja invite link generator_files/line-awesome.min.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1149.0" data-gr-ext-installed="">
+<h1>
+<a href="https://vdo.ninja/">VDO.Ninja</a> invite generator
+<small>VDO.Ninja has more functionality than this app supports. See the <a href="https://docs.vdo.ninja/advanced-settings">Advanced Settings</a> page for
+more
+information.</small>
+</h1>
+<div id="panels">
+<div class="panel active"><span class="title">Room (optional)</span><span class="description " title="Room names can only be alphanumeric, any other characters are replaced with underscores"><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 180px;"><div class="answersContainer"><div class="textGroup"><span class="click">Example room name: ThirstyPoint</span><input type="text" data-param="&amp;room" onchange="updateLink(this)" data-for="view,push,director" data-beta="undefined" onfocus="this.oldValue = this.value"></div></div></div></div><div class="panel active"><span class="title">Invite (optional)</span><span class="description " title="You can set a push id to reuse this link. Everytime someone uses it you also use the same view link. Push ids must be unique!"><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 270px;"><div class="answersContainer"><div class="textGroup"><span>Custom Push ID</span><input type="text" data-param="&amp;push" onchange="updateLink(this)" data-for="push,view" data-beta="undefined" onfocus="this.oldValue = this.value"></div><div class="textGroup"><span>Password</span><input type="text" data-param="&amp;pw" onchange="updateLink(this)" data-for="view,push,director" data-beta="undefined" onfocus="this.oldValue = this.value"></div><div class="textGroup"><span>Language</span><select data-param="&amp;ln" onchange="updateLink(this); this.blur()" data-for="view,push" data-beta="undefined" onfocus="this.oldValue = this.value"><option value="en">English</option><option value="cs">Czech</option><option value="de">German</option><option value="es">Spanish</option><option value="fr">French</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="nl">Dutch</option><option value="pig">Pig Latin</option><option value="pt">Portuguese</option><option value="ru">Russian</option><option value="tr">Turkish</option></select></div></div></div></div><div class="panel active"><span class="title">Sharing types</span><span class="description " title="Limit the types of content your guests are allowed to share."><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 148px;"><div class="answersContainer"><div class="switchGroup"><label class="switch"><input type="radio" name="allowed_devices" data-param="" onchange="updateLink(this)" data-for="push" data-beta="undefined" checked="true" id="Allow all">Allow all</input><span class="slider round"></span></label><span>Allow all</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="allowed_devices" data-param="&amp;wc" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Camera">Camera</input><span class="slider round"></span></label><span>Camera</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="allowed_devices" data-param="&amp;ss" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Screen">Screen</input><span class="slider round"></span></label><span>Screen</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="allowed_devices" data-param="&amp;fs" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="File">File</input><span class="slider round"></span></label><span>File</span></div></div></div></div><div class="panel active"><span class="title">Guest features</span><span class="description " title="Guest related features like hand raising, display labels, disabling buttons."><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 440px;"><div class="answersContainer"><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;hands" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Raise hand feature">Raise hand feature</input><span class="slider round"></span></label><span title="undefined">Raise hand feature</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;ns" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Hide settings button">Hide settings button</input><span class="slider round"></span></label><span title="undefined">Hide settings button</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;as" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Auto-start">Auto-start</input><span class="slider round"></span></label><span title="undefined">Auto-start</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;broadcast" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Guest only sees director feed">Guest only sees director feed</input><span class="slider round"></span></label><span title="undefined">Guest only sees director feed</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;l" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Ask for display name">Ask for display name</input><span class="slider round"></span></label><span title="undefined">Ask for display name</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;sl" onchange="updateLink(this)" data-for="push,view" data-beta="undefined" id="Show display names">Show display names</input><span class="slider round"></span></label><span title="undefined">Show display names</span></div><div class="textGroup"><span>Set display name</span><input type="text" data-param="&amp;l" onchange="updateLink(this)" data-for="push" data-beta="undefined" onfocus="this.oldValue = this.value"></div><div class="textGroup"><span>Transcribe</span><select data-param="&amp;trans" onchange="updateLink(this); this.blur()" data-for="push" data-beta="undefined" onfocus="this.oldValue = this.value"><option value=""></option><option value="cs-CZ">Czech</option><option value="nl-NL">Dutch</option><option value="en-US">English</option><option value="fr-FR">French</option><option value="de-DE">German</option><option value="it-IT">Italian</option><option value="ja-JA">Japanese</option><option value="pt-PT">Portuguese</option><option value="ru-RU">Russian</option><option value="es-ES">Spanish</option><option value="tr-TR">Turkish</option></select></div></div></div></div><div class="panel active"><span class="title">Video</span><span class="description " title="Ask for a resolution, fps, or a video device by name. These are not guaranteed, but subject to the system&#39;s abilities"><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 509px;"><div class="answersContainer"><div class="switchGroup"><label class="switch"><input type="radio" name="quality" data-param="" onchange="updateLink(this)" data-for="push" data-beta="undefined" checked="true" id="Default quality">Default quality</input><span class="slider round"></span></label><span>Default quality</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="quality" data-param="&amp;q=0" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Up to 1080p60">Up to 1080p60</input><span class="slider round"></span></label><span>Up to 1080p60</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="quality" data-param="&amp;q=1" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Up to 720p30">Up to 720p30</input><span class="slider round"></span></label><span>Up to 720p30</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="quality" data-param="&amp;q=2" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Up to 360p30">Up to 360p30</input><span class="slider round"></span></label><span>Up to 360p30</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;np" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Disable self-preview">Disable self-preview</input><span class="slider round"></span></label><span title="undefined">Disable self-preview</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;vd=1" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Auto select default camera">Auto select default camera</input><span class="slider round"></span></label><span title="undefined">Auto select default camera</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;vd=0" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Disable camera">Disable camera</input><span class="slider round"></span></label><span title="undefined">Disable camera</span></div><div class="textGroup"><span>Pre-select video device named</span><input type="text" data-param="&amp;vd" onchange="updateLink(this)" data-for="push" data-beta="undefined" onfocus="this.oldValue = this.value"></div><div class="textGroup"><span>Bitrate (Kbps)</span><input type="text" data-param="&amp;bitrate" onchange="updateLink(this)" data-for="view" data-beta="undefined" onfocus="this.oldValue = this.value"></div></div></div></div><div class="panel active"><span class="title">Audio</span><span class="description " title="Get high quality stereo audio, or enable an audio pipeline compressor."><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 558px;"><div class="answersContainer"><div class="switchGroup"><label class="switch"><input type="radio" name="stereo" data-param="" onchange="updateLink(this)" data-for="push" data-beta="undefined" checked="true" id="Standard audio mode">Standard audio mode</input><span class="slider round"></span></label><span>Standard audio mode</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="stereo" data-param="&amp;s" onchange="updateLink(this)" data-for="push,view" data-beta="undefined" id="Pro-audio">Pro-audio</input><span class="slider round"></span></label><span>Pro-audio</span></div><div class="switchGroup"><label class="switch"><input type="radio" name="stereo" data-param="&amp;mono" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Force mono">Force mono</input><span class="slider round"></span></label><span>Force mono</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;ad" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Auto select default microphone">Auto select default microphone</input><span class="slider round"></span></label><span title="undefined">Auto select default microphone</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;comp" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Audio compressor">Audio compressor</input><span class="slider round"></span></label><span title="undefined">Audio compressor</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;m" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Mute microphone by default">Mute microphone by default</input><span class="slider round"></span></label><span title="undefined">Mute microphone by default</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;noap" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Disable audio processing">Disable audio processing</input><span class="slider round"></span></label><span title="undefined">Disable audio processing</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;meterstyle=1" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Vertical Audio Meter style">Vertical Audio Meter style</input><span class="slider round"></span></label><span title="undefined">Vertical Audio Meter style</span></div><div class="textGroup"><span>Pre-select audio device named</span><input type="text" data-param="&amp;ad" onchange="updateLink(this)" data-for="push" data-beta="undefined" onfocus="this.oldValue = this.value"></div></div></div></div><div class="panel active"><span class="title">General options</span><span class="description " title="Limit the types of content your guests are allowed to share."><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 354px;"><div class="answersContainer"><div class="textGroup"><span>CSS URL</span><input type="text" data-param="&amp;css" onchange="updateLink(this)" data-for="push,view" data-beta="undefined" onfocus="this.oldValue = this.value" data-function="encodeUri"></div><div class="textGroup"><span class="click">URL-encod CSS (click here to encode)</span><input type="text" data-param="&amp;b64css" onchange="updateLink(this)" data-for="push,view" data-beta="true" onfocus="this.oldValue = this.value" placeholder="* BETA feature - Enables beta links"></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;noheader" onchange="updateLink(this)" data-for="push" data-beta="undefined" id="Hide header">Hide header</input><span class="slider round"></span></label><span title="undefined">Hide header</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;cc" onchange="updateLink(this)" data-for="view" data-beta="undefined" id="Show Closed Captions">Show Closed Captions</input><span class="slider round"></span></label><span title="undefined">Show Closed Captions</span></div></div></div></div><div class="panel active"><span class="title">Director options</span><span class="description " title="This options apply to the director page"><i class="las la-info-circle"></i></span><div class="answers" style="max-height: 166px;"><div class="answersContainer"><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;showdirector" onchange="updateLink(this)" data-for="director" data-beta="undefined" data-function="checkDirector" id="Show Director">Show Director</input><span class="slider round"></span></label><span title="Let&#39;s director perform alongside guests.">Show Director</span></div><div class="switchGroup"><label class="switch"><input type="checkbox" data-param="&amp;cleandirector" onchange="updateLink(this)" data-for="director" data-beta="undefined" data-function="checkDirector" id="Clean Director">Clean Director</input><span class="slider round"></span></label><span title="Hides the invite URL options in the Director&#39;s room.">Clean Director</span></div><div class="textGroup"><span>Rooms</span><input type="text" data-param="&amp;rooms" onchange="updateLink(this)" data-for="director" data-beta="undefined" onfocus="this.oldValue = this.value" placeholder="room1,room2,room3"></div></div></div></div></div>
+<div id="links">
+<div id="guestLink">
+<h4>Guest invite Link <span onclick="guestQRCode(&#39;#url&#39;)">QR Code</span></h4>
+<div class="switchGroup obfuscateSwitch">
+<label class="switch">
+<input id="guestBetaToggle" type="checkbox" name="beta" onchange="toggleBeta()">
+<span class="slider round"></span>
+</label>
+<span>Beta</span>
+<label class="switch">
+<input id="guestObfuscateToggle" type="checkbox" name="obfuscate" onchange="toggleObfuscate()">
+<span class="slider round"></span>
+</label>
+<span>Obfuscate</span>
+</div>
+<a id="url" title="Click to copy" class="url" data-raw="https://vdo.ninja/?push=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOre&amp;hands&amp;ll&amp;q=0&amp;s&amp;meterstyle=1&amp;comp&amp;noheader" href="https://vdo.ninja/?push=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOre&amp;hands&amp;ll&amp;q=0&amp;s&amp;meterstyle=1&amp;comp&amp;noheader" onclick="popupMessage(event);copyFunction(this)" onmousedown="copyFunction(this)" data-beta="false">https://vdo.ninja/?push=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOre&amp;hands&amp;ll&amp;q=0&amp;s&amp;meterstyle=1&amp;comp&amp;noheader</a>
+</div>
+<div id="viewLink">
+<h4>Viewer (OBS) Link <span onclick="guestQRCode(&#39;#viewUrl&#39;)">QR Code</span></h4>
+<div class="switchGroup obfuscateSwitch">
+<label class="switch">
+<input id="viewerBetaToggle" type="checkbox" name="beta" onchange="toggleBeta(&#39;viewUrl&#39;)">
+<span class="slider round"></span>
+</label>
+<span>Beta</span>
+<label class="switch">
+<input id="viewerObfuscateToggle" type="checkbox" name="obfuscate" onchange="toggleObfuscate(&#39;viewUrl&#39;)">
+<span class="slider round"></span>
+</label>
+<span>Obfuscate</span>
+</div>
+<a id="viewUrl" title="Click to copy" class="url" data-raw="https://vdo.ninja/?view=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOrel&amp;s&amp;cc" href="https://vdo.ninja/?view=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOrel&amp;s&amp;cc&amp;scene" onclick="popupMessage(event);copyFunction(this)" onmousedown="copyFunction(this)">https://vdo.ninja/?view=H-GolEm&amp;room=Document&amp;pw=GerSpinWorlds1FingazHockEtherOrel&amp;s&amp;cc&amp;scene</a>
+</div>
+<div id="directorLink" class="show">
+<h4>Director Link</h4>
+<a id="directorUrl" title="Click to copy" class="url" data-raw="https://vdo.ninja/?dir=Documenthowdirector&amp;rooms=ChronicleCove,CosmosCorner,EnigmaEnclosure,VortexOfVision,AlgorithmAlley,ParadoxPavilion,SynapseSymposium,QuantumQuarters,NebulaNexus,ScoutSector,LeewayForLegends,BilletOfBrilliance,HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity&amp;pw=GerSpinWorlds1FingazHockEtherOre" data-obfuscated="false" href="https://vdo.ninja/?dir=Documenthowdirector&amp;rooms=ChronicleCove,CosmosCorner,EnigmaEnclosure,VortexOfVision,AlgorithmAlley,ParadoxPavilion,SynapseSymposium,QuantumQuarters,NebulaNexus,ScoutSector,LeewayForLegends,BilletOfBrilliance,HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity&amp;pw=GerSpinWorlds1FingazHockEtherOre" onclick="popupMessage(event);copyFunction(this)" onmousedown="copyFunction(this)">https://vdo.ninja/?dir=Documenthowdirector&amp;rooms=ChronicleCove,CosmosCorner,EnigmaEnclosure,VortexOfVision,AlgorithmAlley,ParadoxPavilion,SynapseSymposium,QuantumQuarters,NebulaNexus,ScoutSector,LeewayForLegends,BilletOfBrilliance,HeadroomForHorizons,ReconnoiterRealm,LatitudeOfThought,LegroomForLogic,ChamberOfInsights,ExpanseOfInfinity&amp;pw=GerSpinWorlds1FingazHockEtherOre</a>
+</div>
+</div>
+<div id="popup" onclick="this.style.left=&#39;-10000px&#39;; this.style.top=&#39;-1000px&#39;">
+<span id="popupDescription"></span>
+</div>
+<div id="messagePopup" class="popup-message" style="left: 298px; top: 1128px;"><center>Copied to Clipboard</center></div>
+
+<div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div></body><text-blaze-app-reference style="display: contents !important;"><template shadowrootmode="closed"><style>
+      div:before {
+        content: attr(data-content);
+      }
+      div {
+        position: absolute;
+        border: 0;
+        margin: -1px;
+        padding: 0;
+        width: 0.1px;
+        height: 0.1px;
+        user-select: none;
+        overflow: hidden;
+        font-size: 0px;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        pointer-events: none;
+      }
+      @media print {
+        * {
+          display: none !important;
+        }
+      }
+      </style><div aria-label="text-blaze-integration" role="group" tabindex="-1" data-content="{&quot;extensionEnabled&quot;:true}"></div></template></text-blaze-app-reference><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

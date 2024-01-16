@@ -1,0 +1,297 @@
+16:26:44.398: ================================
+16:26:44.398: Warning: OBS is already running!
+16:26:44.398: ================================
+16:26:44.398: User is now running multiple instances of OBS!
+16:26:44.400: CPU Name: Intel(R) Celeron(R) N5095 @ 2.00GHz
+16:26:44.400: CPU Speed: 1997MHz
+16:26:44.400: Physical Cores: 4, Logical Cores: 4
+16:26:44.400: Physical Memory: 16228MB Total, 5736MB Free
+16:26:44.400: Windows Version: 10.0 Build 23612 (release: 22H2; revision: 1000; 64-bit)
+16:26:44.400: Running as administrator: true
+16:26:44.400: Windows 10/11 Gaming Features:
+16:26:44.401: 	Game DVR: On
+16:26:44.401: 	Game Mode: Off
+16:26:44.409: Sec. Software Status:
+16:26:44.417: 	Microsoft Defender Antivirus: enabled (AV)
+16:26:44.425: 	Windows Firewall: enabled (FW)
+16:26:44.427: Current Date/Time: 2024-01-13, 16:26:44
+16:26:44.428: Browser Hardware Acceleration: true
+16:26:44.428: Hide OBS windows from screen capture: true
+16:26:44.428: Qt Version: 6.5.3 (runtime), 6.5.3 (compiled)
+16:26:44.428: Portable mode: false
+16:26:44.538: OBS 30.0.0 (64-bit, windows)
+16:26:44.538: ---------------------------------
+16:26:44.541: ---------------------------------
+16:26:44.541: audio settings reset:
+16:26:44.541: 	samples per sec: 48000
+16:26:44.541: 	speakers:        2
+16:26:44.541: 	max buffering:   960 milliseconds
+16:26:44.541: 	buffering type:  dynamically increasing
+16:26:44.544: ---------------------------------
+16:26:44.544: Initializing D3D11...
+16:26:44.544: Available Video Adapters: 
+16:26:44.565: 	Adapter 0: Intel(R) UHD Graphics
+16:26:44.566: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+16:26:44.566: 	  Shared VRAM:    8508350464 (7.9 GiB)
+16:26:44.566: 	  PCI ID:         8086:4e55
+16:26:44.566: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+16:26:44.568: 	  Driver Version: 31.0.101.2114
+16:26:44.570: 	  output 0:
+16:26:44.570: 	    name=E320VL
+16:26:44.570: 	    pos={0, 0}
+16:26:44.570: 	    size={1920, 1080}
+16:26:44.570: 	    attached=true
+16:26:44.570: 	    refresh=25
+16:26:44.570: 	    bits_per_color=8
+16:26:44.570: 	    space=RGB_FULL_G22_NONE_P709
+16:26:44.570: 	    sdr_white_nits=80
+16:26:44.570: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+16:26:44.570: 	    dpi=96 (100%)
+16:26:44.570: 	    id=\\?\DISPLAY#VIZ0067#4&2fc4e4f&0&UID49#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+16:26:44.570: 	    alt_id=\\.\DISPLAY1
+16:26:44.579: Loading up D3D11 on adapter Intel(R) UHD Graphics (0)
+16:26:44.678: D3D11 loaded successfully, feature level used: b000
+16:26:44.678: DXGI increase maximum frame latency success
+16:26:45.052: ---------------------------------
+16:26:45.052: video settings reset:
+16:26:45.052: 	base resolution:   1920x1080
+16:26:45.052: 	output resolution: 424x240
+16:26:45.052: 	downscale filter:  Bicubic
+16:26:45.052: 	fps:               60/1
+16:26:45.052: 	format:            NV12
+16:26:45.052: 	YUV mode:          Rec. 709/Partial
+16:26:45.053: NV12 texture support enabled
+16:26:45.053: P010 texture support not available
+16:26:45.055: Audio monitoring device:
+16:26:45.055: 	name: Default
+16:26:45.055: 	id: default
+16:26:45.055: ---------------------------------
+16:26:45.063: No AJA devices found, skipping loading AJA UI plugin
+16:26:45.063: Failed to initialize module 'aja-output-ui.dll'
+16:26:45.066: No AJA devices found, skipping loading AJA plugin
+16:26:45.066: Failed to initialize module 'aja.dll'
+16:26:45.066: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+16:26:45.074: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+16:26:45.076: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+16:26:45.079: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+16:26:45.085: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:26:45.085: Failed to initialize module 'decklink.dll'
+16:26:45.104: [Python] Could not load library: C:/Python312/
+16:26:45.107: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+16:26:45.108: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+16:26:45.108: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+16:26:45.111: [Move Transition] loaded version 2.9.6
+16:26:45.113: Failed to get nvARPose.dll version info size
+16:26:45.166: [obs-browser]: Version 2.22.1
+16:26:45.166: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+gc69ad37+chromium-103.0.5060.134 (compiled)
+16:26:45.184: [noise suppress]: NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+16:26:45.186: Failed to get NVVideoEffects.dll version info size
+16:26:45.193: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+16:26:45.728: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.3.3 | RPC Version: 1)
+16:26:45.728: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.5.3 | Qt version (run-time): 6.5.3
+16:26:45.728: [obs-websocket] [obs_module_load] Linked ASIO Version: 102800
+16:26:45.761: [obs-websocket] [obs_module_load] Module loaded.
+16:26:45.774: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+16:26:45.802: ---------------------------------
+16:26:45.803:   Loaded Modules:
+16:26:45.803:     win-wasapi.dll
+16:26:45.803:     win-dshow.dll
+16:26:45.803:     win-capture.dll
+16:26:45.803:     vlc-video.dll
+16:26:45.803:     text-freetype2.dll
+16:26:45.803:     rtmp-services.dll
+16:26:45.803:     obs-x264.dll
+16:26:45.803:     obs-websocket.dll
+16:26:45.803:     obs-webrtc.dll
+16:26:45.803:     obs-vst.dll
+16:26:45.803:     obs-transitions.dll
+16:26:45.803:     obs-text.dll
+16:26:45.803:     obs-qsv11.dll
+16:26:45.803:     obs-outputs.dll
+16:26:45.803:     obs-filters.dll
+16:26:45.803:     obs-ffmpeg.dll
+16:26:45.803:     obs-browser.dll
+16:26:45.803:     move-transition.dll
+16:26:45.803:     image-source.dll
+16:26:45.803:     frontend-tools.dll
+16:26:45.803:     decklink-output-ui.dll
+16:26:45.803:     decklink-captions.dll
+16:26:45.803:     coreaudio-encoder.dll
+16:26:45.803: ---------------------------------
+16:26:45.803: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+16:26:45.803: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+16:26:45.804: [obs-websocket] [WebSocketServer::Start] Listen failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+16:26:45.805: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+16:26:45.806: ==== Startup complete ===============================================
+16:26:45.955: All scene data cleared
+16:26:45.955: ------------------------------------------------
+16:26:45.967: [win-wasapi: 'Desktop Audio'] update settings:
+16:26:45.967: 	device id: default
+16:26:45.967: 	use device timing: 1
+16:26:45.973: [Loaded global audio device]: 'Desktop Audio'
+16:26:45.974: [win-wasapi: 'Mic/Aux'] update settings:
+16:26:45.974: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+16:26:45.974: 	use device timing: 0
+16:26:45.975: [Loaded global audio device]: 'Mic/Aux'
+16:26:45.975: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+16:26:45.975: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Mic/Aux)
+16:26:45.991: [win-wasapi: 'Audio Input Capture'] update settings:
+16:26:45.991: 	device id: {0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}
+16:26:45.991: 	use device timing: 1
+16:26:45.992: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}] Failed to enumerate device: 80070490
+16:26:45.992: WASAPI: Device '{0.0.1.00000000}.{743ccd5b-f0d1-47cd-9857-2916f771a0a0}' failed to start (source: Audio Input Capture)
+16:26:46.068: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' [48000 Hz] initialized (source: Desktop Audio)
+16:26:46.074: [duplicator-monitor-capture: 'Display Capture'] update settings:
+16:26:46.074: 	display:  (0x0)
+16:26:46.074: 	cursor: true
+16:26:46.074: 	method: DXGI
+16:26:46.074: 	id: 
+16:26:46.074: 	alt_id: 
+16:26:46.074: 	setting_id: \\?\DISPLAY#ONN0000#4&2fc4e4f&0&UID4146#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+16:26:46.074: 	force SDR: true
+16:26:46.075: [win-wasapi: 'Audio Output Capture'] update settings:
+16:26:46.075: 	device id: {0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}
+16:26:46.075: 	use device timing: 1
+16:26:46.079: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}] Failed to enumerate device: 80070490
+16:26:46.079: WASAPI: Device '{0.0.0.00000000}.{dfdbd2f9-f7e7-4d1e-bf0f-aeac735a0221}' failed to start (source: Audio Output Capture)
+16:26:46.175: Switched to scene 'Scene 2'
+16:26:46.350: ------------------------------------------------
+16:26:46.350: Loaded scenes:
+16:26:46.350: - scene 'Scene':
+16:26:46.350:     - source: 'Audio Input Capture' (wasapi_input_capture)
+16:26:46.350:         - monitoring: monitor and output
+16:26:46.350:         - filter: 'VST 2.x Plug-in' (vst_filter)
+16:26:46.350:     - source: 'Display Capture' (monitor_capture)
+16:26:46.350:     - source: 'Audio Output Capture' (wasapi_output_capture)
+16:26:46.350:         - monitoring: monitor and output
+16:26:46.350:     - source: 'Video Capture Device 2' (dshow_input)
+16:26:46.350: - scene 'Scene 2':
+16:26:46.350:     - source: 'Display Capture' (monitor_capture)
+16:26:46.350:     - source: 'Group' (group)
+16:26:46.350:         - source: 'Video Capture Device' (dshow_input)
+16:26:46.350:             - filter: 'Color Correction' (color_filter_v2)
+16:26:46.350:         - source: 'Audio Output Capture' (wasapi_output_capture)
+16:26:46.351:             - monitoring: monitor and output
+16:26:46.351:     - source: 'Audio Output Capture' (wasapi_output_capture)
+16:26:46.351:         - monitoring: monitor and output
+16:26:46.351:     - source: 'Group 2' (group)
+16:26:46.351:         - filter: 'Render Delay' (gpu_delay)
+16:26:46.351:         - source: 'Video Capture Device' (dshow_input)
+16:26:46.351:             - filter: 'Color Correction' (color_filter_v2)
+16:26:46.351:         - source: 'Audio Output Capture' (wasapi_output_capture)
+16:26:46.351:             - monitoring: monitor and output
+16:26:46.351: ------------------------------------------------
+16:26:46.788: ---------------------------------
+16:26:46.789: [DShow Device: 'Video Capture Device'] settings updated: 
+16:26:46.789: 	video device: USB 2.0 Camera
+16:26:46.789: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+16:26:46.789: 	resolution: 1280x720
+16:26:46.789: 	flip: 0
+16:26:46.789: 	fps: 30.00 (interval: 333333)
+16:26:46.789: 	format: MJPEG
+16:26:46.789: 	buffering: disabled
+16:26:46.789: 	hardware decode: disabled
+16:26:46.880: ---------------------------------
+16:26:46.880: [DShow Device: 'Video Capture Device 2'] settings updated: 
+16:26:46.880: 	video device: USB 2.0 Camera
+16:26:46.880: 	video path: \\?\usb#vid_1bcf&pid_284d&mi_00#6&333ef22&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+16:26:46.880: 	resolution: 1920x1080
+16:26:46.880: 	flip: 0
+16:26:46.880: 	fps: 30.00 (interval: 333333)
+16:26:46.880: 	format: MJPEG
+16:26:46.880: 	buffering: disabled
+16:26:46.880: 	hardware decode: disabled
+16:26:47.052: YT: InitYTUserUrl() User is not signed
+16:26:47.052: YT: InitYTUserUrl() User is not signed
+16:26:47.122: 	using video device audio: no
+16:26:47.123: 	separate audio filter
+16:26:47.123: 	sample rate: 44100
+16:26:47.123: 	channels: 2
+16:26:47.123: 	audio type: Capture
+16:26:47.428: 	using video device audio: no
+16:26:47.428: 	separate audio filter
+16:26:47.428: 	sample rate: 44100
+16:26:47.428: 	channels: 2
+16:26:47.428: 	audio type: Capture
+16:26:47.625: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+16:26:47.625: 
+16:26:48.647: User switched to scene 'Scene'
+16:26:48.713: DShow: Run failed (0x800705AA): Insufficient system resources exist to complete the requested service.
+16:26:48.713: 
+16:26:51.893: ==== Shutting down ==================================================
+16:26:51.928: QFSFileEngine::open: No file name specified
+16:26:51.972: WASAPI: Device 'E320VL (HD Audio Driver for Display Audio)' Terminated
+16:26:51.979: WASAPI: Device '' Terminated
+16:26:51.988: WASAPI: Device '' Terminated
+16:26:51.993: WASAPI: Device '' Terminated
+16:26:52.014: All scene data cleared
+16:26:52.014: ------------------------------------------------
+16:26:52.508: [obs-websocket] [obs_module_unload] Shutting down...
+16:26:52.508: Tried to call obs_frontend_remove_event_callback with no callbacks!
+16:26:52.508: [obs-websocket] [obs_module_unload] Finished shutting down.
+16:26:53.175: [Scripting] Total detached callbacks: 0
+16:26:53.177: Freeing OBS context data
+16:26:53.281: == Profiler Results =============================
+16:26:53.281: run_program_init: 8564.99 ms
+16:26:53.281:  ┣OBSApp::AppInit: 31.625 ms
+16:26:53.281:  ┃ ┗OBSApp::InitLocale: 3.326 ms
+16:26:53.281:  ┗OBSApp::OBSInit: 2884.16 ms
+16:26:53.281:    ┣obs_startup: 28.864 ms
+16:26:53.281:    ┗OBSBasic::OBSInit: 2743.66 ms
+16:26:53.281:      ┣OBSBasic::InitBasicConfig: 2.327 ms
+16:26:53.281:      ┣OBSBasic::ResetAudio: 0.912 ms
+16:26:53.281:      ┣OBSBasic::ResetVideo: 512.576 ms
+16:26:53.281:      ┃ ┗obs_init_graphics: 509.866 ms
+16:26:53.281:      ┃   ┗shader compilation: 360.965 ms
+16:26:53.281:      ┣OBSBasic::InitOBSCallbacks: 0.055 ms
+16:26:53.281:      ┣OBSBasic::InitHotkeys: 0.058 ms
+16:26:53.281:      ┣obs_load_all_modules2: 747.237 ms
+16:26:53.281:      ┃ ┣obs_init_module(aja-output-ui.dll): 2.048 ms
+16:26:53.281:      ┃ ┣obs_init_module(aja.dll): 0.348 ms
+16:26:53.282:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 5.558 ms
+16:26:53.282:      ┃ ┣obs_init_module(decklink-captions.dll): 0 ms
+16:26:53.282:      ┃ ┣obs_init_module(decklink-output-ui.dll): 0.002 ms
+16:26:53.282:      ┃ ┣obs_init_module(decklink.dll): 3.541 ms
+16:26:53.282:      ┃ ┣obs_init_module(frontend-tools.dll): 13.032 ms
+16:26:53.282:      ┃ ┣obs_init_module(image-source.dll): 0.023 ms
+16:26:53.282:      ┃ ┣obs_init_module(move-transition.dll): 23.363 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-browser.dll): 1.226 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 3.384 ms
+16:26:53.282:      ┃ ┃ ┗nvenc_check: 0.589 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-filters.dll): 9.517 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-outputs.dll): 0.026 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-qsv11.dll): 501.258 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-text.dll): 0.716 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-transitions.dll): 0.025 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-vst.dll): 0.007 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-webrtc.dll): 0.018 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-websocket.dll): 33.125 ms
+16:26:53.282:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+16:26:53.282:      ┃ ┣obs_init_module(rtmp-services.dll): 2.789 ms
+16:26:53.282:      ┃ ┣obs_init_module(text-freetype2.dll): 0.224 ms
+16:26:53.282:      ┃ ┣obs_init_module(vlc-video.dll): 0.12 ms
+16:26:53.282:      ┃ ┣obs_init_module(win-capture.dll): 14.555 ms
+16:26:53.282:      ┃ ┣obs_init_module(win-dshow.dll): 5.232 ms
+16:26:53.282:      ┃ ┣obs_init_module(win-wasapi.dll): 0.091 ms
+16:26:53.282:      ┃ ┗reset_win32_symbol_paths: 0.715 ms
+16:26:53.282:      ┣OBSBasic::InitService: 4.37 ms
+16:26:53.282:      ┣OBSBasic::ResetOutputs: 0.782 ms
+16:26:53.282:      ┣OBSBasic::CreateHotkeys: 0.082 ms
+16:26:53.282:      ┣OBSBasic::InitPrimitives: 1.576 ms
+16:26:53.282:      ┗OBSBasic::Load: 579.239 ms
+16:26:53.282: obs_hotkey_thread(25 ms): min=0.009 ms, median=0.023 ms, max=55.571 ms, 99th percentile=14.9 ms, 99.3266% below 25 ms
+16:26:53.282: audio_thread(Audio): min=0.034 ms, median=0.089 ms, max=19.806 ms, 99th percentile=0.671 ms
+16:26:53.282: obs_graphics_thread(16.6667 ms): min=0.107 ms, median=0.983 ms, max=190.2 ms, 99th percentile=7.467 ms, 99.5272% below 16.667 ms
+16:26:53.282:  ┣tick_sources: min=0.002 ms, median=0.03 ms, max=189.651 ms, 99th percentile=0.397 ms
+16:26:53.282:  ┣output_frame: min=0.087 ms, median=0.357 ms, max=32.48 ms, 99th percentile=6.024 ms
+16:26:53.282:  ┃ ┗gs_context(video->graphics): min=0.086 ms, median=0.356 ms, max=32.479 ms, 99th percentile=6.014 ms
+16:26:53.282:  ┃   ┣render_video: min=0.01 ms, median=0.069 ms, max=32.363 ms, 99th percentile=5.01 ms
+16:26:53.282:  ┃   ┃ ┗render_main_texture: min=0.007 ms, median=0.045 ms, max=32.352 ms, 99th percentile=4.991 ms
+16:26:53.282:  ┃   ┗gs_flush: min=0.037 ms, median=0.14 ms, max=6.632 ms, 99th percentile=1.818 ms
+16:26:53.282:  ┗render_displays: min=0.001 ms, median=0.544 ms, max=7.021 ms, 99th percentile=2.346 ms
+16:26:53.282: =================================================
+16:26:53.282: == Profiler Time Between Calls ==================
+16:26:53.282: obs_hotkey_thread(25 ms): min=24.325 ms, median=25.556 ms, max=94.128 ms, 45.9459% within ±2% of 25 ms (1.01351% lower, 53.0405% higher)
+16:26:53.282: obs_graphics_thread(16.6667 ms): min=0.444 ms, median=16.667 ms, max=190.219 ms, 82.7014% within ±2% of 16.667 ms (9.24171% lower, 8.05687% higher)
+16:26:53.282: =================================================
+16:26:53.498: Number of memory leaks: 0

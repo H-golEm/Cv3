@@ -1,0 +1,71 @@
+/* Existing styles remain unchanged */
+
+/* Enhanced styles for better layout and design */
+#logForm {
+    display: flex;
+    flex-direction: column; /* Adjusted for grouped inputs */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grouped-input {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.grouped-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#logForm input, #logForm button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#logForm button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px; /* Adjusted margin for button */
+}
+
+#logForm button:hover, #logForm button:active {
+    background-color: #0056b3;
+}
+
+.log-entry-group {
+    margin-bottom: 15px;
+}
+
+.log-entry-group h3 {
+    font-size: 1.1em;
+    color: #0056b3;
+    margin-bottom: 5px;
+}
+
+.log-entry {
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .grouped-input {
+        width: 100%; /* Adjusted width for smaller screens */
+    }
+
+    #logForm input, #logForm button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

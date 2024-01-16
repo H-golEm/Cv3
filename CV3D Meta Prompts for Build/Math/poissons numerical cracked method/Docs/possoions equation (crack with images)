@@ -1,0 +1,58 @@
+crake head dpoissons eq:
+solve [f(x+sqrt(p^2*v))-2*f(x) = w*t^2, f(x-sqrt(p^2*v))=-w*t*v] for f(x)
+See Images  and rewrite work:
+C:\Users\william\Documents\GitHub\Cv3D\CV3D Meta Prompts for Build\Math\poissons numerical cracked method\images\WIN_20240113_16_27_53_Pro.jpg
+C:\Users\william\Documents\GitHub\Cv3D\CV3D Meta Prompts for Build\Math\poissons numerical cracked method\images\WIN_20240113_16_29_12_Pro.jpg
+C:\Users\william\Documents\GitHub\Cv3D\CV3D Meta Prompts for Build\Math\poissons numerical cracked method\images\WIN_20240113_16_29_42_Pro.jpg
+C:\Users\william\Documents\GitHub\Cv3D\CV3D Meta Prompts for Build\Math\poissons numerical cracked method\images\WIN_20240113_16_29_56_Pro.jpg
+
+assumptions:
+we can liken possoins equation to the limit definition of the second derivative setting
+rho = density
+v = volume
+h = limit going towards 0
+t = time
+
+and given this definition for the second derivative:
+f''(x) = lim (h->0): { [   ( f(x+h) - 2*f(x) )  +  f(x-h)  ]  /  h^2 }
+==> [f'(x+h) - f'(x-h) ] / (2*h)
+
+We liken the following substitution based on meta-physical thought experiements and find the correlation naturally that:
+            now_events(temporally):past_events(temporally) :: current_pos(position):foward_pos(position)
+  This of course is taking the naive human perpective that we are
+    incapable to see where we go if stepping backwards from perspective
+                                +
+                        knowing the future
+          isn't concreate         (ie  just as 'black' as the back of your visual cortex/optical nerve/back/head);
+
+  Yet 'knowing' as much about the 'past occuring event' as one can is akin to
+       having some data on 'knowing' where we could possibly step 'foward next in space' is.
+  Further, both of these are still holographic like in concept yet relativity
+    may play with this notion of 'knowing' vs 'causally influenced by' therefore
+    being able to probabilistically expand our mental sandbox to include these or exclude
+    is the main (weak) pinpoint I propose we investigate, till broken.
+    These notions; aren't currently happening, but are more concreatly corerelated to causal
+    influence in subject matter than say looking behind ones self or looking into the future)
+
+    I further this point by imagining a real really big mf. So big that expansion matters.
+    Taking a step back percisly to where he just stood is a mf, as much of a mf I propose as him trying to figure
+    out the future events he will encounter as the expansion may also chaotically cause future events to
+    ecape his realm of  his observable 'new' present (big mf make big waves, and can't catch the ball in the pool
+    anymore even though it was right there and everyone thought he was going to be able to reach/obtain it but instead it
+    submerges a bit (possibly lodged under one of his flaps by accident while he was going forward)
+    then 'inevitably' pops! out of the pool, as he moves to try and obtain this 'planned' future
+    (possibly onto land by the lifegaurd)
+
+    as such,
+
+h = sqrt(rho^2*v),  (so small masses or [very] enourmous voulme)
+f(x+h)-2*f(x) = epsilon_naught * (Delta(t))^2
+f(x-h) = - epsilon_naught * (Delta(t)) * Volume
+
+
+hypothesis:
+(1)small masses only interact volumes iff thier chirality is inverted and time is invereted
+(or the permittivity of free space is inverted then time could still play foward)
+
+(2)waves only temporally collapse when they have enourmous volumes (every body kind of knew that big mf wasn't gonna
+get that ball but were rooting for big-fella)

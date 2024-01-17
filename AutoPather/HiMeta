@@ -1,0 +1,174 @@
+User
+Make sure we're still on task then proceed to develop the other files:
+1. **Initialize Dependency Tracking:**
+   - Create or load a configuration file containing project folder paths.
+   - Create and return an initial dependency dictionary.
+   - Create an empty graph to visualize dependencies for each project.
+
+2. **User Input for Projects:**
+   - Implement a user interface on the web page to add or remove projects.
+   - Allow users to input project folder paths dynamically.
+
+3. **Scan Files for Dependencies:**
+   - Iterate through each file in the specified project folders.
+   - Search for hard-coded dependencies and update the dependency dictionary.
+   - Add nodes and edges to the graph based on dependencies.
+
+4. **Update Dependencies:**
+   - If a file is renamed or moved, update its entry in the dependency dictionary.
+   - If a dependency's name changes, update it in all files that reference it.
+   - Update the graph accordingly.
+
+5. **Handle Spaces in Names:**
+   - Implement a mechanism to handle spaces in file or folder names.
+   - Update dependencies, file references, and the graph accordingly.
+
+6. **Manage Changes in Folder Structure:**
+   - If a file or folder is moved to a different location, update the paths in all dependent files.
+   - Update the graph accordingly.
+
+7. **Dynamic Handling of Name Changes:**
+   - Ensure the system dynamically adapts to changes in file or folder names.
+   - Update the graph accordingly.
+
+8. **Handle File Encoding Changes:**
+   - Implement a check for changes in file encoding.
+   - Update code to handle different encodings if needed.
+   - Update the graph accordingly.
+
+9. **Case Sensitivity Handling:**
+   - Account for case sensitivity in file and folder names.
+   - Adjust code references to be case-insensitive if necessary.
+   - Update the graph accordingly.
+
+10. **Auto-Start on Windows:**
+    - Add the script to the Windows startup process.
+
+11. **Web-Based Graph Visualization:**
+    - Create a separate Node.js server.
+    - Implement a web-based interface using HTML, CSS, and JavaScript for graph visualization.
+    - Include a user input box for adding or removing projects.
+    - Implement a dropdown for selecting specific graphs.
+    - Visualize graphs dynamically based on user selection.
+    - Automatically open the web interface when changes are detected, highlighting nodes and edges that were changed.
+________________________________________________
+
+1. **Main Script (`main.py`):**
+   - Responsible for initializing the dependency tracking, file system watcher, and handling user input.
+
+2. **Dependency Tracker (`dependency_tracker.py`):**
+   - Contains functions to scan files for dependencies, update dependencies, handle spaces, manage changes in folder structure, dynamic name changes, handle file encoding changes, and case sensitivity handling.
+
+3. **Graph Visualization (`graph_visualization.js`, `index.html`, `style.css`):**
+   - Implements the web-based interface for graph visualization using JavaScript, HTML, and CSS.
+
+4. **User Configuration (`config_manager.py`):**
+   - Manages user input for project folders, configuration file handling, and auto-start on Windows.
+______________________________________________________________________
+
+
+Adapt to handle project folders within Google Drive synced locations.
+Maintain a configuration file with updated paths reflecting the Google Drive folder structure.
+User Input for Projects:
+
+Enhance the user interface to accommodate input for Google Drive synced folder paths.
+Implement validation to ensure paths are within the Google Drive synced locations.
+Scan Files for Dependencies:
+
+Adjust scanning algorithms to work with Google Drive's file structure and syncing mechanism.
+Ensure real-time updates in dependency tracking as files sync with Google Drive.
+Update Dependencies:
+
+Modify update mechanisms to handle Google Drive's file versioning and syncing features.
+Handle Spaces in Names:
+
+Ensure compatibility with Google Drive's handling of spaces in file and folder names.
+Manage Changes in Folder Structure:
+
+Implement robust tracking of file and folder movements within the Google Drive synced environment.
+Dynamic Handling of Name Changes:
+
+Integrate with for real-time updates on name changes.
+Handle File Encoding Changes:
+
+Incorporate checks for file encoding consistency between local and Google Drive versions.
+Case Sensitivity Handling:
+
+Align with Google Drive's case sensitivity rules for file and folder names.
+Auto-Start on Windows:
+
+Ensure the script auto-starts and accesses the Google Drive synced folder correctly.
+Web-Based Graph Visualization:
+
+Implement real-time synchronization with the Google Drive folder for accurate graph visualization.
+Build Instructions:
+Main Script (main.py):
+
+Incorporate Google Drive path handling and synchronization checks.
+Implement a file watcher that triggers on Google Drive sync completion events.
+Dependency Tracker (dependency_tracker.py):
+
+Adjust functions for compatibility with Google Drive's file structure.
+Implement mechanisms to handle Google Drive-specific file operations.
+Graph Visualization (graph_visualization.js, index.html, style.css):
+
+Ensure the web interface reflects changes from the Google Drive synced folder in real-time.
+Implement additional UI elements for Google Drive folder navigation and status.
+User Configuration (config_manager.py):
+
+Add functionality to manage and validate Google Drive synced folder paths.
+Integrate checks to ensure the application is targeting the correct Google Drive folder.
+
+To clarify, the application will handle real-time monitoring of changes and manage file revisions without relying on the Google Drive API. The focus will be on adapting the application to work seamlessly with the Google Drive synced folder, leveraging its automatic synchronization features while the app independently tracks and visualizes dependencies and changes. Let's update the application scope and build instructions accordingly.
+
+Updated Application Scope:
+Real-Time Monitoring of Changes:
+
+Implement a file system watcher to detect changes in the Google Drive synced folder.
+Track file additions, deletions, modifications, and renames in real-time.
+Dependency Tracking and Visualization:
+
+Analyze and visualize dependencies within the Google Drive synced folder.
+Update the dependency graph dynamically as changes occur.
+Handling File Revisions:
+
+Develop a mechanism to track and manage different versions of files as they are modified.
+Integrate revision tracking into the dependency graph.
+Adaptation to Google Drive Synced Folder Structure:
+
+Ensure compatibility with the folder structure and file management conventions of Google Drive's local sync solution.
+User Interface for Project Management:
+
+Allow users to add, remove, or modify project paths within the Google Drive synced folder.
+Provide visual feedback on the sync status and file changes.
+Graph Visualization Enhancements:
+
+Enhance the graph visualization to represent file revisions, dependencies, and change history.
+Implement interactive features for exploring different versions and dependencies.
+Revised Build Instructions:
+Main Script (main.py):
+
+Integrate a robust file system watcher for the Google Drive synced folder.
+Handle user inputs for project management within the Google Drive context.
+Dependency Tracker (dependency_tracker.py):
+
+Modify scanning algorithms for compatibility with Google Drive's file structure.
+Implement file revision tracking and update mechanisms.
+Graph Visualization (graph_visualization.js, index.html, style.css):
+
+Develop a dynamic and interactive graph visualization tailored to the Google Drive environment.
+Display real-time updates, file revisions, and dependency links.
+User Configuration (config_manager.py):
+
+Manage user configurations for Google Drive synced folder paths.
+Ensure correct initialization and handling of project settings.
+Additional Notes:
+Offline Handling: Implement features to handle scenarios where the Google Drive sync is paused or the system is offline, ensuring that changes are captured and processed once the sync resumes.
+
+Conflict Resolution: Develop strategies to handle conflicts that may arise due to simultaneous edits or sync delays.
+
+Performance Optimization: Optimize the application for performance, especially when dealing with large repositories or frequent changes.
+
+User Documentation: Provide comprehensive documentation and user guides on setting up and using the application with Google Drive synced folders, including troubleshooting common issues.
+
+This revised approach focuses on leveraging the Google Drive sync mechanism while maintaining independent and real-time tracking of file changes and dependencies within the application, ensuring a seamless integration with your development workflow.

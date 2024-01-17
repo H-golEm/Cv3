@@ -1,0 +1,41 @@
+<!-- AutoPather\public\index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AutoPather - Dependency Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <h1>AutoPather - Dependency Tracker</h1>
+
+    <!-- User Input Box for Project Management -->
+    <div id="projectInput">
+      <label for="projectPath">Project Path:</label>
+      <input type="text" id="projectPath" placeholder="Enter project folder path">
+      <button onclick="addProject()">Add Project</button>
+    </div>
+
+    <!-- Dropdown for Graph Selection -->
+    <div id="graphSelection">
+      <label for="graphList">Select Graph:</label>
+      <select id="graphList" onchange="selectGraph()">
+        <!-- Populate this dropdown dynamically based on available graphs -->
+        <!-- Example: <option value="graph1">Graph 1</option> -->
+      </select>
+    </div>
+
+    <!-- Graph Visualization Container -->
+    <div id="graphContainer">
+      <!-- Include or link the graph visualization component here -->
+      <!-- Example: <script src="graph_visualization.js"></script> -->
+    </div>
+  </div>
+
+  <!-- JavaScript file for user interaction -->
+  <script src="graph_interaction.js"></script>
+</body>
+</html>
